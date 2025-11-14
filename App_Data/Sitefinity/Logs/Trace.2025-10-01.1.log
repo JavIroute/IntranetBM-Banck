@@ -1,0 +1,90 @@
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 24/09/2025 15:38:04
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Versioning.Cleaner.VersioningCleanerTask'. Start time: 24/09/2025 15:38:04. End time: 24/09/2025 15:38:04. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 24/09/2025 15:38:04
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.ExternalNotifications.ExternalNotificationsRetrieverTask'. Start time: 24/09/2025 15:38:04. End time: 24/09/2025 15:38:04. Task data: '{}'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 24/09/2025 15:38:04
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Services.Notifications.Scheduling.NotificationsCleanupTask'. Start time: 24/09/2025 15:38:04. End time: 24/09/2025 15:38:04. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 24/09/2025 15:38:04
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.ServiceHooks.Scheduling.ServiceHooksActivitiesCleanupTask'. Start time: 24/09/2025 15:38:04. End time: 24/09/2025 15:38:04. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 24/09/2025 15:38:05
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Authentication.Data.TransientDataCleanupTask'. Start time: 24/09/2025 15:38:04. End time: 24/09/2025 15:38:05. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 25/09/2025 14:03:16
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.ExternalNotifications.ExternalNotificationsRetrieverTask'. Start time: 25/09/2025 14:03:16. End time: 25/09/2025 14:03:16. Task data: '{}'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 25/09/2025 14:03:16
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.ServiceHooks.Scheduling.ServiceHooksActivitiesCleanupTask'. Start time: 25/09/2025 14:03:16. End time: 25/09/2025 14:03:16. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 25/09/2025 14:03:16
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Authentication.Data.TransientDataCleanupTask'. Start time: 25/09/2025 14:03:16. End time: 25/09/2025 14:03:16. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 25/09/2025 14:03:16
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Versioning.Cleaner.VersioningCleanerTask'. Start time: 25/09/2025 14:03:16. End time: 25/09/2025 14:03:16. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 25/09/2025 14:03:16
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Services.Notifications.Scheduling.NotificationsCleanupTask'. Start time: 25/09/2025 14:03:16. End time: 25/09/2025 14:03:16. Task data: ''›››
+
+
+----------------------------------------

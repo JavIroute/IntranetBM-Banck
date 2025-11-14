@@ -1,0 +1,680 @@
+----------------------------------------
+ActivityId: cac7750c-7c48-4bd9-b515-0c7161152be2
+
+Timestamp: 10/09/2025 19:43:00
+
+Message: ‹‹‹System.Web.HttpException (0x80004005): El servidor no puede anexar un encabezado después de enviar los encabezados HTTP.
+   en System.Web.HttpHeaderCollection.SetHeader(String name, String value, Boolean replace)
+   en Microsoft.Owin.Host.SystemWeb.CallHeaders.AspNetResponseHeaders.Set(String key, String[] values) en /_/src/Microsoft.Owin.Host.SystemWeb/CallHeaders/AspNetResponseHeaders.cs:línea 108
+   en Microsoft.Owin.Infrastructure.ChunkingCookieManager.AppendResponseCookie(IOwinContext context, String key, String value, CookieOptions options) en /_/src/Microsoft.Owin/Infrastructure/ChunkingCookieManager.cs:línea 216
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.SetAuthCookie(AuthenticationTicket ticket, Boolean isPersistent, Nullable`1 expiresUtc)
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.<Renew>d__12.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.<ApplyResponseGrantAsync>d__2.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseCoreAsync>d__40.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 179
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseAsync>d__39.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 167
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<TeardownAsync>d__34.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 96
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__5.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationMiddleware.cs:línea 32
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.Owin.Cookies.Cookies.CookieSaverMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.AnonymousUserMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.SitefinityAuthenticationMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.AccessControlMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.SslOffloaderMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.HttpsRedirectMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()›››
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134020069216459887
+
+ProcessId: 20924
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10628
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: cac7750c-7c48-4bd9-b515-0c7161152be2
+
+Timestamp: 9/10/2025 7:43:00 PM
+
+Message: HandlingInstanceID: 3f6cc33f-1d42-4713-869f-0f84b4be44e7
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/10/2025 14:43:00
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹El servidor no puede anexar un encabezado después de enviar los encabezados HTTP.›››
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void MoveNext()›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Owin.SitefinityMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContextStage.<RunApp>d__7.MoveNext() in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContextStage.cs:line 85
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContext.<DoFinalWork>d__12.MoveNext() in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContext.cs:line 153
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.StageAsyncResult.End(IAsyncResult ar) in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/StageAsyncResult.cs:line 76
+   at System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/10/2025 7:43:00 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134020069216459887
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134020069216459887
+
+ProcessId: 20924
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10628
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 10/9/2025 19:43:18
+
+Message: HandlingInstanceID: a4567790-d8f2-440a-88bb-2aa93d647d51
+An exception of type 'System.DirectoryServices.Protocols.LdapException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+09/10/2025 14:43:18
+Type : System.DirectoryServices.Protocols.LdapException, System.DirectoryServices.Protocols, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹The LDAP server is unavailable.›››
+Source : System.DirectoryServices.Protocols
+Help link : 
+ErrorCode : ‹‹‹81›››
+ServerErrorMessage : 
+PartialResults : ‹‹‹System.DirectoryServices.Protocols.PartialResultsCollection›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Connect()›››
+HResult : ‹‹‹-2146233088›››
+Stack Trace :    at System.DirectoryServices.Protocols.LdapConnection.Connect()
+   at System.DirectoryServices.Protocols.LdapConnection.SendRequestHelper(DirectoryRequest request, Int32& messageID)
+   at System.DirectoryServices.Protocols.LdapConnection.SendRequest(DirectoryRequest request, TimeSpan requestTimeout)
+   at Telerik.Sitefinity.Security.Ldap.LdapFacade.Search(LdapQuery query, String rootDN, Int32 pageSize)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 10/9/2025 19:43:18
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134020069216459887
+ThreadIdentity : system
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134020069216459887
+
+ProcessId: 20924
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-2
+
+Win32 ThreadId:24964
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 10/9/2025 20:29:51
+
+Message: HandlingInstanceID: 2a0e926a-ef6a-42d8-8acd-1456c9715975
+An exception of type 'System.DirectoryServices.Protocols.LdapException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+09/10/2025 15:29:51
+Type : System.DirectoryServices.Protocols.LdapException, System.DirectoryServices.Protocols, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹The LDAP server is unavailable.›››
+Source : System.DirectoryServices.Protocols
+Help link : 
+ErrorCode : ‹‹‹81›››
+ServerErrorMessage : 
+PartialResults : ‹‹‹System.DirectoryServices.Protocols.PartialResultsCollection›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Connect()›››
+HResult : ‹‹‹-2146233088›››
+Stack Trace :    at System.DirectoryServices.Protocols.LdapConnection.Connect()
+   at System.DirectoryServices.Protocols.LdapConnection.SendRequestHelper(DirectoryRequest request, Int32& messageID)
+   at System.DirectoryServices.Protocols.LdapConnection.SendRequest(DirectoryRequest request, TimeSpan requestTimeout)
+   at Telerik.Sitefinity.Security.Ldap.LdapFacade.Search(LdapQuery query, String rootDN, Int32 pageSize)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 10/9/2025 20:29:51
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134020097468543142
+ThreadIdentity : system
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134020097468543142
+
+ProcessId: 34736
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-2
+
+Win32 ThreadId:12924
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 11/9/2025 14:35:53
+
+Message: HandlingInstanceID: 01c6c9d6-f730-4fbc-98f6-a39890324a85
+An exception of type 'System.DirectoryServices.Protocols.LdapException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+09/11/2025 09:35:53
+Type : System.DirectoryServices.Protocols.LdapException, System.DirectoryServices.Protocols, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹The LDAP server is unavailable.›››
+Source : System.DirectoryServices.Protocols
+Help link : 
+ErrorCode : ‹‹‹81›››
+ServerErrorMessage : 
+PartialResults : ‹‹‹System.DirectoryServices.Protocols.PartialResultsCollection›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Connect()›››
+HResult : ‹‹‹-2146233088›››
+Stack Trace :    at System.DirectoryServices.Protocols.LdapConnection.Connect()
+   at System.DirectoryServices.Protocols.LdapConnection.SendRequestHelper(DirectoryRequest request, Int32& messageID)
+   at System.DirectoryServices.Protocols.LdapConnection.SendRequest(DirectoryRequest request, TimeSpan requestTimeout)
+   at Telerik.Sitefinity.Security.Ldap.LdapFacade.Search(LdapQuery query, String rootDN, Int32 pageSize)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 11/9/2025 14:35:53
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134020749051831527
+ThreadIdentity : system
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134020749051831527
+
+ProcessId: 44600
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-2
+
+Win32 ThreadId:43260
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 2a192967-7718-45d5-ac29-f2e7b07cab02
+
+Timestamp: 9/11/2025 2:42:39 PM
+
+Message: HandlingInstanceID: cbf9ac5c-d240-4b3d-a974-715cd672b6de
+An exception of type 'System.DirectoryServices.Protocols.LdapException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+09/11/2025 09:42:39
+Type : System.DirectoryServices.Protocols.LdapException, System.DirectoryServices.Protocols, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹The LDAP server is unavailable.›››
+Source : System.DirectoryServices.Protocols
+Help link : 
+ErrorCode : ‹‹‹81›››
+ServerErrorMessage : 
+PartialResults : ‹‹‹System.DirectoryServices.Protocols.PartialResultsCollection›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Connect()›››
+HResult : ‹‹‹-2146233088›››
+Stack Trace :    at System.DirectoryServices.Protocols.LdapConnection.Connect()
+   at System.DirectoryServices.Protocols.LdapConnection.SendRequestHelper(DirectoryRequest request, Int32& messageID)
+   at System.DirectoryServices.Protocols.LdapConnection.SendRequest(DirectoryRequest request, TimeSpan requestTimeout)
+   at Telerik.Sitefinity.Security.Ldap.LdapFacade.Search(LdapQuery query, String rootDN, Int32 pageSize)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/11/2025 2:42:39 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134020749051831527
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/Sitefinity/Login?ReturnUrl=http%3a%2f%2flocalhost%2fsitefinity
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134020749051831527
+
+ProcessId: 44600
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:19696
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 2a192967-7718-45d5-ac29-f2e7b07cab02
+
+Timestamp: 9/11/2025 2:43:00 PM
+
+Message: HandlingInstanceID: 13e0bfa3-e295-4831-857c-4533bd99b163
+An exception of type 'System.DirectoryServices.Protocols.LdapException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+09/11/2025 09:43:00
+Type : System.DirectoryServices.Protocols.LdapException, System.DirectoryServices.Protocols, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹The LDAP server returned an unknown error.›››
+Source : System.DirectoryServices.Protocols
+Help link : 
+ErrorCode : ‹‹‹52›››
+ServerErrorMessage : 
+PartialResults : ‹‹‹System.DirectoryServices.Protocols.PartialResultsCollection›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Connect()›››
+HResult : ‹‹‹-2146233088›››
+Stack Trace :    at System.DirectoryServices.Protocols.LdapConnection.Connect()
+   at System.DirectoryServices.Protocols.LdapConnection.SendRequestHelper(DirectoryRequest request, Int32& messageID)
+   at System.DirectoryServices.Protocols.LdapConnection.SendRequest(DirectoryRequest request, TimeSpan requestTimeout)
+   at Telerik.Sitefinity.Security.Ldap.LdapFacade.Search(LdapQuery query, String rootDN, Int32 pageSize)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/11/2025 2:43:00 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134020749051831527
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/Sitefinity/Login?ReturnUrl=http%3a%2f%2flocalhost%2fsitefinity
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134020749051831527
+
+ProcessId: 44600
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:19696
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 2a192967-7718-45d5-ac29-f2e7b07cab02
+
+Timestamp: 9/11/2025 2:43:00 PM
+
+Message: HandlingInstanceID: df1b778b-26d6-4e36-af39-8c1eef4dceb2
+An exception of type 'System.ApplicationException' occurred and was caught.
+---------------------------------------------------------------------------
+09/11/2025 09:43:00
+Type : System.ApplicationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : ‹‹‹Role 'SitefinityAdmin' not found in provider 'LdapRoles'›››
+Source : Telerik.Sitefinity
+Help link : 
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹System.Guid GetRoleId(System.String, System.String)›››
+HResult : ‹‹‹-2146232832›››
+Stack Trace :    at Telerik.Sitefinity.Security.SecurityManager.GetRoleId(String roleProviderName, String roleName)
+   at Telerik.Sitefinity.Security.SecurityManager.BuildAdminRoles()
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/11/2025 2:43:00 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134020749051831527
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/Sitefinity/Login?ReturnUrl=http%3a%2f%2flocalhost%2fsitefinity
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134020749051831527
+
+ProcessId: 44600
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:19696
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 2a192967-7718-45d5-ac29-f2e7b07cab02
+
+Timestamp: 9/11/2025 2:43:21 PM
+
+Message: HandlingInstanceID: 1a87a380-a8cc-4212-8fc7-a6f7d718f172
+An exception of type 'System.DirectoryServices.Protocols.LdapException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+09/11/2025 09:43:21
+Type : System.DirectoryServices.Protocols.LdapException, System.DirectoryServices.Protocols, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹The LDAP server returned an unknown error.›››
+Source : System.DirectoryServices.Protocols
+Help link : 
+ErrorCode : ‹‹‹52›››
+ServerErrorMessage : 
+PartialResults : ‹‹‹System.DirectoryServices.Protocols.PartialResultsCollection›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Connect()›››
+HResult : ‹‹‹-2146233088›››
+Stack Trace :    at System.DirectoryServices.Protocols.LdapConnection.Connect()
+   at System.DirectoryServices.Protocols.LdapConnection.SendRequestHelper(DirectoryRequest request, Int32& messageID)
+   at System.DirectoryServices.Protocols.LdapConnection.SendRequest(DirectoryRequest request, TimeSpan requestTimeout)
+   at Telerik.Sitefinity.Security.Ldap.LdapFacade.Search(LdapQuery query, String rootDN, Int32 pageSize)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/11/2025 2:43:21 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134020749051831527
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/Sitefinity/Login?ReturnUrl=http%3a%2f%2flocalhost%2fsitefinity
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134020749051831527
+
+ProcessId: 44600
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:19696
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 2a192967-7718-45d5-ac29-f2e7b07cab02
+
+Timestamp: 9/11/2025 2:43:43 PM
+
+Message: HandlingInstanceID: 76e7b4f9-518d-462c-ba5d-d1b577486c68
+An exception of type 'System.DirectoryServices.Protocols.LdapException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+09/11/2025 09:43:43
+Type : System.DirectoryServices.Protocols.LdapException, System.DirectoryServices.Protocols, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹The LDAP server returned an unknown error.›››
+Source : System.DirectoryServices.Protocols
+Help link : 
+ErrorCode : ‹‹‹52›››
+ServerErrorMessage : 
+PartialResults : ‹‹‹System.DirectoryServices.Protocols.PartialResultsCollection›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Connect()›››
+HResult : ‹‹‹-2146233088›››
+Stack Trace :    at System.DirectoryServices.Protocols.LdapConnection.Connect()
+   at System.DirectoryServices.Protocols.LdapConnection.SendRequestHelper(DirectoryRequest request, Int32& messageID)
+   at System.DirectoryServices.Protocols.LdapConnection.SendRequest(DirectoryRequest request, TimeSpan requestTimeout)
+   at Telerik.Sitefinity.Security.Ldap.LdapFacade.Search(LdapQuery query, String rootDN, Int32 pageSize)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/11/2025 2:43:43 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134020749051831527
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/Sitefinity/Login?ReturnUrl=http%3a%2f%2flocalhost%2fsitefinity
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134020749051831527
+
+ProcessId: 44600
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:19696
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 18dd96e3-8261-4216-8cb1-5a8b50ce5ff6
+
+Timestamp: 11/09/2025 16:24:02
+
+Message: HandlingInstanceID: 98dd4b0b-ef7b-4805-aa4c-d796a67dd25d
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/11/2025 11:24:02
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Se detectó un posible valor Request.Path peligroso en el cliente (:).›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void ValidateInputIfRequiredByConfig()›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    en System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   en System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 11/09/2025 16:24:02
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134020749051831527
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/Sitefinity/adminapp/pages/(sfedit/fbf6a136-b39f-4989-bc1b-8d3578e6c389/dialog:confirm/editWidgetPropsBasic)?sf_culture=en&sf_provider=OpenAccessDataProvider&reload=0.42554357717745006
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134020749051831527
+
+ProcessId: 44600
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:28512
+
+Extended Properties: 
+----------------------------------------

@@ -1,0 +1,83 @@
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 01/09/2025 1:00:01
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Versioning.Cleaner.VersioningCleanerTask'. Start time: 01/09/2025 1:00:01. End time: 01/09/2025 1:00:01. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 01/09/2025 6:57:20
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Authentication.Data.TransientDataCleanupTask'. Start time: 01/09/2025 6:57:20. End time: 01/09/2025 6:57:20. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 01/09/2025 6:57:20
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.ExternalNotifications.ExternalNotificationsRetrieverTask'. Start time: 01/09/2025 6:57:20. End time: 01/09/2025 6:57:20. Task data: '{}'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 01/09/2025 6:57:20
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Services.Notifications.Scheduling.NotificationsCleanupTask'. Start time: 01/09/2025 6:57:20. End time: 01/09/2025 6:57:20. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 01/09/2025 6:57:20
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.ServiceHooks.Scheduling.ServiceHooksActivitiesCleanupTask'. Start time: 01/09/2025 6:57:20. End time: 01/09/2025 6:57:20. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 04c28d87-2a98-4bce-85cd-827a47bf680d
+
+Timestamp: 1/9/2025 22:10:02
+
+Message: ‹‹‹Attempting application domain unload. Reason: 'Thread was being aborted.'. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 04c28d87-2a98-4bce-85cd-827a47bf680d
+
+Timestamp: 1/9/2025 22:10:02
+
+Message: ‹‹‹Application domain unload succeeded. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()'›››
+
+
+----------------------------------------

@@ -1,0 +1,112 @@
+----------------------------------------
+ActivityId: 1a0b7271-fa74-40e1-a0a8-d34534bd2f54
+
+Timestamp: 18/9/2025 15:47:39
+
+Message: HandlingInstanceID: b2868d4b-e0be-488c-a6e6-62efa8641cc0
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/18/2025 10:47:39
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Se detectó un posible valor Request.Path peligroso en el cliente (:).›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void ValidateInputIfRequiredByConfig()›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    en System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   en System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 18/9/2025 15:47:39
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134026131511161785
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/Sitefinity/adminapp/pages/(sfedit/a77e0444-4dfb-492e-bd90-03a8e05f13e2/dialog:confirm/0.049276363803073764)?sf_provider=OpenAccessDataProvider&sf_culture=en
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134026131511161785
+
+ProcessId: 24160
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:50076
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 7ddefd67-d9b5-407c-a7a6-8a7e0eedd4b9
+
+Timestamp: 18/9/2025 15:48:05
+
+Message: HandlingInstanceID: 2ade1527-de26-4979-9052-7bfe3dcf2eac
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/18/2025 10:48:05
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Se detectó un posible valor Request.Path peligroso en el cliente (:).›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void ValidateInputIfRequiredByConfig()›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    en System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   en System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 18/9/2025 15:48:05
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134026131511161785
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/Sitefinity/adminapp/pages/(sfedit/a77e0444-4dfb-492e-bd90-03a8e05f13e2/dialog:confirm/0.049276363803073764)?sf_provider=OpenAccessDataProvider&sf_culture=en
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134026131511161785
+
+ProcessId: 24160
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:50112
+
+Extended Properties: 
+----------------------------------------

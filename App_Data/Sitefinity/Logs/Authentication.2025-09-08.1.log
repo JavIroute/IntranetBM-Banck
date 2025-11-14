@@ -1,0 +1,31 @@
+----------------------------------------
+ActivityId: 6bec2d2b-d061-4a97-bbce-21e1da36c2dd
+
+Timestamp: 9/5/2025 4:00:04 PM
+
+Message: ‹‹‹The user with email/name 'walter.villamar@iroute.com.ec' from provider 'Default' failed authnetication in Sitefinity after successful verification of the password with reason: UserAlreadyLoggedIn›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-2-134015586491784540
+
+ProcessId: 7764
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:31724
+
+Extended Properties: 
+----------------------------------------

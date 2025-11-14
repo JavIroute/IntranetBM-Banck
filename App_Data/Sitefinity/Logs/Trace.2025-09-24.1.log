@@ -1,0 +1,135 @@
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 22/09/2025 17:26:06
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Services.Notifications.Scheduling.NotificationsCleanupTask'. Start time: 22/09/2025 17:26:05. End time: 22/09/2025 17:26:06. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 22/09/2025 17:26:06
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Versioning.Cleaner.VersioningCleanerTask'. Start time: 22/09/2025 17:26:05. End time: 22/09/2025 17:26:06. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 22/09/2025 17:26:06
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.ServiceHooks.Scheduling.ServiceHooksActivitiesCleanupTask'. Start time: 22/09/2025 17:26:05. End time: 22/09/2025 17:26:06. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 22/09/2025 17:26:06
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.ExternalNotifications.ExternalNotificationsRetrieverTask'. Start time: 22/09/2025 17:26:05. End time: 22/09/2025 17:26:06. Task data: '{}'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 22/09/2025 17:26:06
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Authentication.Data.TransientDataCleanupTask'. Start time: 22/09/2025 17:26:05. End time: 22/09/2025 17:26:06. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/22/2025 5:26:10 PM
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Lifecycle.Cleanup.TempItemsCleanupTask'. Start time: 9/22/2025 5:26:05 PM. End time: 9/22/2025 5:26:10 PM. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 22/09/2025 17:26:17
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.UsageTracking.Scheduling.UsageTrackingTask'. Start time: 22/09/2025 17:26:06. End time: 22/09/2025 17:26:17. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 22/9/2025 18:01:49
+
+Message: ‹‹‹Usage tracking configuration could not be retrieved due to the following exception One or more errors occurred..›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 23/09/2025 15:45:29
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.ExternalNotifications.ExternalNotificationsRetrieverTask'. Start time: 23/09/2025 15:45:29. End time: 23/09/2025 15:45:29. Task data: '{}'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 23/09/2025 15:45:29
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Services.Notifications.Scheduling.NotificationsCleanupTask'. Start time: 23/09/2025 15:45:29. End time: 23/09/2025 15:45:29. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 23/09/2025 15:45:29
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.ServiceHooks.Scheduling.ServiceHooksActivitiesCleanupTask'. Start time: 23/09/2025 15:45:29. End time: 23/09/2025 15:45:29. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 23/09/2025 15:45:29
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Versioning.Cleaner.VersioningCleanerTask'. Start time: 23/09/2025 15:45:29. End time: 23/09/2025 15:45:29. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 23/09/2025 15:45:30
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Authentication.Data.TransientDataCleanupTask'. Start time: 23/09/2025 15:45:29. End time: 23/09/2025 15:45:30. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/23/2025 4:08:57 PM
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Modules.Libraries.Versioning.BlobContentCleanerTask'. Start time: 9/23/2025 4:08:57 PM. End time: 9/23/2025 4:08:57 PM. Task data: '{"filePath":"docs/default-source/manuales/library-prueba/manual-técnico-softexpert80db5073-4b2b-4393-af4d-02f1c65d5598.pdf","blobStorageProvider":"Database","libraryProviderName":"OpenAccessDataProvider","numberOfChunks":1,"totalSize":70882,"width":0,"height":0,"extension":".pdf","mimeType":"application/pdf","defaultUrl":"/docs/default-source/manuales/library-prueba/manual-técnico-softexpert80db5073-4b2b-4393-af4d-02f1c65d5598"}'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 9/23/2025 4:09:03 PM
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Modules.Libraries.Versioning.BlobContentCleanerTask'. Start time: 9/23/2025 4:09:03 PM. End time: 9/23/2025 4:09:03 PM. Task data: '{"filePath":"docs/default-source/manuales/library-prueba/manual-técnico-softexpert.pdf","blobStorageProvider":"Database","libraryProviderName":"OpenAccessDataProvider","numberOfChunks":1,"totalSize":70882,"width":0,"height":0,"extension":".pdf","mimeType":"application/pdf","defaultUrl":"/docs/default-source/manuales/library-prueba/manual-técnico-softexpert"}'›››
+
+
+----------------------------------------

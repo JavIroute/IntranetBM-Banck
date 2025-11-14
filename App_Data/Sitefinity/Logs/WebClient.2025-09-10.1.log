@@ -1,0 +1,126 @@
+----------------------------------------
+ActivityId: 2c79557c-13a8-4770-8184-32eecfafedab
+
+Timestamp: 9/9/2025 5:39:09 AM
+
+Message: ‹‹‹"undefined" is not valid JSON
+SyntaxError: "undefined" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at Object.next (https://localhost:5001/adminapp/main.449ba47e63d4ef5e.js:2:2448827)
+    at g.next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:392685)
+    at m._next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:392369)
+    at m.next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:392056)
+    at https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:816513
+    at o._next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:398759)
+    at o.next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:392056)
+    at https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:815247
+    at o._next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:398759)›››
+
+Category: WebClientLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134018464394965999
+
+ProcessId: 20912
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3456
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 3812fe90-2653-4688-9a7a-b0c039f8284d
+
+Timestamp: 9/9/2025 5:29:54 PM
+
+Message: ‹‹‹Cannot read properties of null (reading 'ItemIdsOrdered')
+TypeError: Cannot read properties of null (reading 'ItemIdsOrdered')
+    at Object.next (https://localhost:5001/adminapp/main.449ba47e63d4ef5e.js:2:5878284)
+    at g.next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:392685)
+    at m._next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:392369)
+    at m.next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:392056)
+    at https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:814108
+    at o._next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:398759)
+    at o.next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:392056)
+    at https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:398128
+    at o._next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:398759)
+    at o.next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:392056)›››
+
+Category: WebClientLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134018991506633072
+
+ProcessId: 408
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:31420
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 31c70429-7972-40c4-8ca2-57bdf236f484
+
+Timestamp: 9/9/2025 5:37:39 PM
+
+Message: ‹‹‹Cannot read properties of null (reading 'ItemIdsOrdered')
+TypeError: Cannot read properties of null (reading 'ItemIdsOrdered')
+    at Object.next (https://localhost:5001/adminapp/main.449ba47e63d4ef5e.js:2:5878284)
+    at g.next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:392685)
+    at m._next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:392369)
+    at m.next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:392056)
+    at https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:814108
+    at o._next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:398759)
+    at o.next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:392056)
+    at https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:398128
+    at o._next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:398759)
+    at o.next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:392056)›››
+
+Category: WebClientLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134018991506633072
+
+ProcessId: 408
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:21292
+
+Extended Properties: 
+----------------------------------------

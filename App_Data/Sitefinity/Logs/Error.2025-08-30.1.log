@@ -1,0 +1,2251 @@
+----------------------------------------
+ActivityId: 8127c8ad-5772-4b39-ab96-4641c1519d46
+
+Timestamp: 29/8/2025 20:19:10
+
+Message: ‹‹‹System.Web.HttpException (0x80004005): El servidor no puede anexar un encabezado después de enviar los encabezados HTTP.
+   en System.Web.HttpHeaderCollection.SetHeader(String name, String value, Boolean replace)
+   en Microsoft.Owin.Host.SystemWeb.CallHeaders.AspNetResponseHeaders.Set(String key, String[] values) en /_/src/Microsoft.Owin.Host.SystemWeb/CallHeaders/AspNetResponseHeaders.cs:línea 108
+   en Microsoft.Owin.Infrastructure.ChunkingCookieManager.AppendResponseCookie(IOwinContext context, String key, String value, CookieOptions options) en /_/src/Microsoft.Owin/Infrastructure/ChunkingCookieManager.cs:línea 216
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.SetAuthCookie(AuthenticationTicket ticket, Boolean isPersistent, Nullable`1 expiresUtc)
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.<Renew>d__12.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.<ApplyResponseGrantAsync>d__2.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseCoreAsync>d__40.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 179
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseAsync>d__39.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 167
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<TeardownAsync>d__34.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 96
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__5.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationMiddleware.cs:línea 32
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.Owin.Cookies.Cookies.CookieSaverMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.AnonymousUserMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.SitefinityAuthenticationMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.AccessControlMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.SslOffloaderMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.HttpsRedirectMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()›››
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:17200
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 77094f7b-830b-474e-8917-a2c95967a4e1
+
+Timestamp: 29/8/2025 20:19:10
+
+Message: ‹‹‹System.Web.HttpException (0x80004005): El servidor no puede anexar un encabezado después de enviar los encabezados HTTP.
+   en System.Web.HttpHeaderCollection.SetHeader(String name, String value, Boolean replace)
+   en Microsoft.Owin.Host.SystemWeb.CallHeaders.AspNetResponseHeaders.Set(String key, String[] values) en /_/src/Microsoft.Owin.Host.SystemWeb/CallHeaders/AspNetResponseHeaders.cs:línea 108
+   en Microsoft.Owin.Infrastructure.ChunkingCookieManager.AppendResponseCookie(IOwinContext context, String key, String value, CookieOptions options) en /_/src/Microsoft.Owin/Infrastructure/ChunkingCookieManager.cs:línea 216
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.SetAuthCookie(AuthenticationTicket ticket, Boolean isPersistent, Nullable`1 expiresUtc)
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.<Renew>d__12.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.<ApplyResponseGrantAsync>d__2.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseCoreAsync>d__40.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 179
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseAsync>d__39.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 167
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<TeardownAsync>d__34.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 96
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__5.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationMiddleware.cs:línea 32
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.Owin.Cookies.Cookies.CookieSaverMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.AnonymousUserMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.SitefinityAuthenticationMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.AccessControlMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.SslOffloaderMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.HttpsRedirectMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()›››
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:23452
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 4d54342d-b211-4554-8398-0ae142afe4ea
+
+Timestamp: 29/8/2025 20:19:10
+
+Message: ‹‹‹System.Web.HttpException (0x80004005): El servidor no puede anexar un encabezado después de enviar los encabezados HTTP.
+   en System.Web.HttpHeaderCollection.SetHeader(String name, String value, Boolean replace)
+   en Microsoft.Owin.Host.SystemWeb.CallHeaders.AspNetResponseHeaders.Set(String key, String[] values) en /_/src/Microsoft.Owin.Host.SystemWeb/CallHeaders/AspNetResponseHeaders.cs:línea 108
+   en Microsoft.Owin.Infrastructure.ChunkingCookieManager.AppendResponseCookie(IOwinContext context, String key, String value, CookieOptions options) en /_/src/Microsoft.Owin/Infrastructure/ChunkingCookieManager.cs:línea 216
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.SetAuthCookie(AuthenticationTicket ticket, Boolean isPersistent, Nullable`1 expiresUtc)
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.<Renew>d__12.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.<ApplyResponseGrantAsync>d__2.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseCoreAsync>d__40.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 179
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseAsync>d__39.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 167
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<TeardownAsync>d__34.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 96
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__5.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationMiddleware.cs:línea 32
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.Owin.Cookies.Cookies.CookieSaverMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.AnonymousUserMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.SitefinityAuthenticationMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.AccessControlMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.SslOffloaderMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.HttpsRedirectMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()›››
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:25820
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 28a6aebf-f64b-4137-a421-99a150ee1119
+
+Timestamp: 29/8/2025 20:19:10
+
+Message: ‹‹‹System.Web.HttpException (0x80004005): El servidor no puede anexar un encabezado después de enviar los encabezados HTTP.
+   en System.Web.HttpHeaderCollection.SetHeader(String name, String value, Boolean replace)
+   en Microsoft.Owin.Host.SystemWeb.CallHeaders.AspNetResponseHeaders.Set(String key, String[] values) en /_/src/Microsoft.Owin.Host.SystemWeb/CallHeaders/AspNetResponseHeaders.cs:línea 108
+   en Microsoft.Owin.Infrastructure.ChunkingCookieManager.AppendResponseCookie(IOwinContext context, String key, String value, CookieOptions options) en /_/src/Microsoft.Owin/Infrastructure/ChunkingCookieManager.cs:línea 216
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.SetAuthCookie(AuthenticationTicket ticket, Boolean isPersistent, Nullable`1 expiresUtc)
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.<Renew>d__12.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.<ApplyResponseGrantAsync>d__2.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseCoreAsync>d__40.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 179
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseAsync>d__39.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 167
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<TeardownAsync>d__34.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 96
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__5.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationMiddleware.cs:línea 32
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.Owin.Cookies.Cookies.CookieSaverMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.AnonymousUserMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.SitefinityAuthenticationMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.AccessControlMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.SslOffloaderMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.HttpsRedirectMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()›››
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:20460
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 8127c8ad-5772-4b39-ab96-4641c1519d46
+
+Timestamp: 8/29/2025 8:19:10 PM
+
+Message: HandlingInstanceID: 6f3aa68e-a304-49ec-a3e3-99ce0ae19e72
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+08/29/2025 15:19:10
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹El servidor no puede anexar un encabezado después de enviar los encabezados HTTP.›››
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void MoveNext()›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Owin.SitefinityMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContextStage.<RunApp>d__7.MoveNext() in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContextStage.cs:line 85
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContext.<DoFinalWork>d__12.MoveNext() in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContext.cs:line 153
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.StageAsyncResult.End(IAsyncResult ar) in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/StageAsyncResult.cs:line 76
+   at System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 8/29/2025 8:19:10 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-134009618207066132
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\intranet
+Requested URL : http://localhost:8081/secretar%C3%ADa-general
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:17200
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 4d54342d-b211-4554-8398-0ae142afe4ea
+
+Timestamp: 8/29/2025 8:19:10 PM
+
+Message: HandlingInstanceID: 7e5eb9d1-e161-43a4-abbb-13783a89a739
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+08/29/2025 15:19:10
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹El servidor no puede anexar un encabezado después de enviar los encabezados HTTP.›››
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void MoveNext()›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Owin.SitefinityMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContextStage.<RunApp>d__7.MoveNext() in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContextStage.cs:line 85
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContext.<DoFinalWork>d__12.MoveNext() in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContext.cs:line 153
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.StageAsyncResult.End(IAsyncResult ar) in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/StageAsyncResult.cs:line 76
+   at System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 8/29/2025 8:19:10 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-134009618207066132
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\intranet
+Requested URL : http://localhost:8081/areas/seguridad-de-la-informacion
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:25820
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 77094f7b-830b-474e-8917-a2c95967a4e1
+
+Timestamp: 8/29/2025 8:19:10 PM
+
+Message: HandlingInstanceID: c4a5a993-4c1f-4b48-a16f-6eb0df5b733d
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+08/29/2025 15:19:10
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹El servidor no puede anexar un encabezado después de enviar los encabezados HTTP.›››
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void MoveNext()›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Owin.SitefinityMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContextStage.<RunApp>d__7.MoveNext() in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContextStage.cs:line 85
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContext.<DoFinalWork>d__12.MoveNext() in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContext.cs:line 153
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.StageAsyncResult.End(IAsyncResult ar) in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/StageAsyncResult.cs:line 76
+   at System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 8/29/2025 8:19:10 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-134009618207066132
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\intranet
+Requested URL : http://localhost:8081/areas/seguridad-de-la-informacion
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:23452
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 28a6aebf-f64b-4137-a421-99a150ee1119
+
+Timestamp: 8/29/2025 8:19:10 PM
+
+Message: HandlingInstanceID: 1eb8dafa-f921-42ec-9375-3b975efdb829
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+08/29/2025 15:19:10
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹El servidor no puede anexar un encabezado después de enviar los encabezados HTTP.›››
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void MoveNext()›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Owin.SitefinityMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContextStage.<RunApp>d__7.MoveNext() in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContextStage.cs:line 85
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContext.<DoFinalWork>d__12.MoveNext() in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContext.cs:line 153
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.StageAsyncResult.End(IAsyncResult ar) in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/StageAsyncResult.cs:line 76
+   at System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 8/29/2025 8:19:10 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-134009618207066132
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\intranet
+Requested URL : http://localhost:8081/secretar%C3%ADa-general
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:20460
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: a335f5f3-cbcb-4533-912b-991c58adeb69
+
+Timestamp: 29/8/2025 20:57:36
+
+Message: ‹‹‹System.Web.HttpException (0x80004005): El servidor no puede anexar un encabezado después de enviar los encabezados HTTP.
+   en System.Web.HttpHeaderCollection.SetHeader(String name, String value, Boolean replace)
+   en Microsoft.Owin.Host.SystemWeb.CallHeaders.AspNetResponseHeaders.Set(String key, String[] values) en /_/src/Microsoft.Owin.Host.SystemWeb/CallHeaders/AspNetResponseHeaders.cs:línea 108
+   en Microsoft.Owin.Infrastructure.ChunkingCookieManager.AppendResponseCookie(IOwinContext context, String key, String value, CookieOptions options) en /_/src/Microsoft.Owin/Infrastructure/ChunkingCookieManager.cs:línea 216
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.SetAuthCookie(AuthenticationTicket ticket, Boolean isPersistent, Nullable`1 expiresUtc)
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.<Renew>d__12.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.<ApplyResponseGrantAsync>d__2.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseCoreAsync>d__40.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 179
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseAsync>d__39.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 167
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<TeardownAsync>d__34.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 96
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__5.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationMiddleware.cs:línea 32
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.Owin.Cookies.Cookies.CookieSaverMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.AnonymousUserMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.SitefinityAuthenticationMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.AccessControlMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.SslOffloaderMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.HttpsRedirectMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()›››
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:27408
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: c2ae6277-15ab-4462-8cb4-dec81d4b2c7e
+
+Timestamp: 29/8/2025 20:57:36
+
+Message: ‹‹‹System.Web.HttpException (0x80004005): El servidor no puede anexar un encabezado después de enviar los encabezados HTTP.
+   en System.Web.HttpHeaderCollection.SetHeader(String name, String value, Boolean replace)
+   en Microsoft.Owin.Host.SystemWeb.CallHeaders.AspNetResponseHeaders.Set(String key, String[] values) en /_/src/Microsoft.Owin.Host.SystemWeb/CallHeaders/AspNetResponseHeaders.cs:línea 108
+   en Microsoft.Owin.Infrastructure.ChunkingCookieManager.AppendResponseCookie(IOwinContext context, String key, String value, CookieOptions options) en /_/src/Microsoft.Owin/Infrastructure/ChunkingCookieManager.cs:línea 216
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.SetAuthCookie(AuthenticationTicket ticket, Boolean isPersistent, Nullable`1 expiresUtc)
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.<Renew>d__12.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.<ApplyResponseGrantAsync>d__2.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseCoreAsync>d__40.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 179
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseAsync>d__39.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 167
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<TeardownAsync>d__34.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 96
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__5.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationMiddleware.cs:línea 32
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.Owin.Cookies.Cookies.CookieSaverMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.AnonymousUserMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.SitefinityAuthenticationMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.AccessControlMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.SslOffloaderMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.HttpsRedirectMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()›››
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:31128
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: c2ae6277-15ab-4462-8cb4-dec81d4b2c7e
+
+Timestamp: 8/29/2025 8:57:36 PM
+
+Message: HandlingInstanceID: cd69138e-c00b-4970-bee1-187ea8d689c3
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+08/29/2025 15:57:36
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹El servidor no puede anexar un encabezado después de enviar los encabezados HTTP.›››
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void MoveNext()›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Owin.SitefinityMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContextStage.<RunApp>d__7.MoveNext() in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContextStage.cs:line 85
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContext.<DoFinalWork>d__12.MoveNext() in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContext.cs:line 153
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.StageAsyncResult.End(IAsyncResult ar) in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/StageAsyncResult.cs:line 76
+   at System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 8/29/2025 8:57:36 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-134009618207066132
+ThreadIdentity : walter.villamar@iroute.com.ec
+WindowsIdentity : IIS APPPOOL\intranet
+Requested URL : http://localhost:8081/areas/mercadeo
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:31128
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: a335f5f3-cbcb-4533-912b-991c58adeb69
+
+Timestamp: 8/29/2025 8:57:36 PM
+
+Message: HandlingInstanceID: 0f57921e-603d-4686-b212-fb60f20f9c94
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+08/29/2025 15:57:36
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹El servidor no puede anexar un encabezado después de enviar los encabezados HTTP.›››
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void MoveNext()›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Owin.SitefinityMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContextStage.<RunApp>d__7.MoveNext() in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContextStage.cs:line 85
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContext.<DoFinalWork>d__12.MoveNext() in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContext.cs:line 153
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.StageAsyncResult.End(IAsyncResult ar) in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/StageAsyncResult.cs:line 76
+   at System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 8/29/2025 8:57:36 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-134009618207066132
+ThreadIdentity : walter.villamar@iroute.com.ec
+WindowsIdentity : IIS APPPOOL\intranet
+Requested URL : http://localhost:8081/areas/mercadeo
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:27408
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 9bfb5b67-e9b1-40f8-b431-1a0068e2804f
+
+Timestamp: 29/08/2025 20:57:41
+
+Message: ‹‹‹System.Web.HttpException (0x80004005): El servidor no puede modificar cookies después de enviar los encabezados HTTP.
+   en System.Web.HttpResponse.BeforeCookieCollectionChange()
+   en Telerik.Sitefinity.Authentication.Infrastructure.Owin.Cookies.CookieSaver.Save(IOwinContext owinContext)
+   en Telerik.Sitefinity.Authentication.Infrastructure.Owin.Cookies.Cookies.CookieSaverMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.AnonymousUserMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.SitefinityAuthenticationMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.AccessControlMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.SslOffloaderMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.HttpsRedirectMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()›››
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:11292
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 9bfb5b67-e9b1-40f8-b431-1a0068e2804f
+
+Timestamp: 29/08/2025 20:57:41
+
+Message: HandlingInstanceID: 5ef8b023-528a-4a72-90ee-48e171a534d0
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+08/29/2025 15:57:41
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹El servidor no puede modificar cookies después de enviar los encabezados HTTP.›››
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void MoveNext()›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    en Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.SitefinityMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContextStage.<RunApp>d__7.MoveNext() en /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContextStage.cs:línea 85
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContext.<DoFinalWork>d__12.MoveNext() en /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContext.cs:línea 153
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.StageAsyncResult.End(IAsyncResult ar) en /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/StageAsyncResult.cs:línea 76
+   en System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 29/08/2025 20:57:41
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-134009618207066132
+ThreadIdentity : walter.villamar@iroute.com.ec
+WindowsIdentity : IIS APPPOOL\intranet
+Requested URL : http://localhost:8081/api/default/users/current
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:11292
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: cd6ff74f-b851-4a5d-9a15-d25d3eba6212
+
+Timestamp: 30/8/2025 3:17:16
+
+Message: ‹‹‹System.Web.HttpException (0x80004005): El servidor no puede anexar un encabezado después de enviar los encabezados HTTP.
+   en System.Web.HttpHeaderCollection.SetHeader(String name, String value, Boolean replace)
+   en Microsoft.Owin.Host.SystemWeb.CallHeaders.AspNetResponseHeaders.Set(String key, String[] values) en /_/src/Microsoft.Owin.Host.SystemWeb/CallHeaders/AspNetResponseHeaders.cs:línea 108
+   en Microsoft.Owin.Infrastructure.ChunkingCookieManager.AppendResponseCookie(IOwinContext context, String key, String value, CookieOptions options) en /_/src/Microsoft.Owin/Infrastructure/ChunkingCookieManager.cs:línea 216
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.SetAuthCookie(AuthenticationTicket ticket, Boolean isPersistent, Nullable`1 expiresUtc)
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.<Renew>d__12.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.<ApplyResponseGrantAsync>d__2.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseCoreAsync>d__40.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 179
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseAsync>d__39.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 167
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<TeardownAsync>d__34.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 96
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__5.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationMiddleware.cs:línea 32
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.Owin.Cookies.Cookies.CookieSaverMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.AnonymousUserMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.SitefinityAuthenticationMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.AccessControlMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.SslOffloaderMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.HttpsRedirectMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()›››
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:16752
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 992b2dc6-fdc2-45ca-88a6-9581e93bf8d0
+
+Timestamp: 30/8/2025 3:17:16
+
+Message: ‹‹‹System.Web.HttpException (0x80004005): El servidor no puede anexar un encabezado después de enviar los encabezados HTTP.
+   en System.Web.HttpHeaderCollection.SetHeader(String name, String value, Boolean replace)
+   en Microsoft.Owin.Host.SystemWeb.CallHeaders.AspNetResponseHeaders.Set(String key, String[] values) en /_/src/Microsoft.Owin.Host.SystemWeb/CallHeaders/AspNetResponseHeaders.cs:línea 108
+   en Microsoft.Owin.Infrastructure.ChunkingCookieManager.AppendResponseCookie(IOwinContext context, String key, String value, CookieOptions options) en /_/src/Microsoft.Owin/Infrastructure/ChunkingCookieManager.cs:línea 216
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.SetAuthCookie(AuthenticationTicket ticket, Boolean isPersistent, Nullable`1 expiresUtc)
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.<Renew>d__12.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.<ApplyResponseGrantAsync>d__2.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseCoreAsync>d__40.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 179
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseAsync>d__39.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 167
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<TeardownAsync>d__34.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 96
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__5.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationMiddleware.cs:línea 32
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.Owin.Cookies.Cookies.CookieSaverMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.AnonymousUserMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.SitefinityAuthenticationMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.AccessControlMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.SslOffloaderMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.HttpsRedirectMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()›››
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:26044
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: cd6ff74f-b851-4a5d-9a15-d25d3eba6212
+
+Timestamp: 8/30/2025 3:17:16 AM
+
+Message: HandlingInstanceID: 00e77a89-0709-492d-88eb-1be21b24d635
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+08/29/2025 22:17:16
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹El servidor no puede anexar un encabezado después de enviar los encabezados HTTP.›››
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void MoveNext()›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Owin.SitefinityMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContextStage.<RunApp>d__7.MoveNext() in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContextStage.cs:line 85
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContext.<DoFinalWork>d__12.MoveNext() in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContext.cs:line 153
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.StageAsyncResult.End(IAsyncResult ar) in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/StageAsyncResult.cs:line 76
+   at System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 8/30/2025 3:17:16 AM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-134009618207066132
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\intranet
+Requested URL : http://localhost:8081/login?ReturnUrl=https://localhost:8081/administracion/inicio
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:16752
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 992b2dc6-fdc2-45ca-88a6-9581e93bf8d0
+
+Timestamp: 8/30/2025 3:17:16 AM
+
+Message: HandlingInstanceID: a682a331-26d6-499b-9f90-0ec2713badda
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+08/29/2025 22:17:16
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹El servidor no puede anexar un encabezado después de enviar los encabezados HTTP.›››
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void MoveNext()›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Owin.SitefinityMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContextStage.<RunApp>d__7.MoveNext() in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContextStage.cs:line 85
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContext.<DoFinalWork>d__12.MoveNext() in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContext.cs:line 153
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.StageAsyncResult.End(IAsyncResult ar) in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/StageAsyncResult.cs:line 76
+   at System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 8/30/2025 3:17:16 AM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-134009618207066132
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\intranet
+Requested URL : http://localhost:8081/login?ReturnUrl=https://localhost:8081/administracion/inicio
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:26044
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: b3edb6c1-5713-4bde-bf86-a667c70c8d2c
+
+Timestamp: 30/8/2025 3:17:53
+
+Message: ‹‹‹System.Web.HttpException (0x80004005): El servidor no puede anexar un encabezado después de enviar los encabezados HTTP.
+   en System.Web.HttpHeaderCollection.SetHeader(String name, String value, Boolean replace)
+   en Microsoft.Owin.Host.SystemWeb.CallHeaders.AspNetResponseHeaders.Set(String key, String[] values) en /_/src/Microsoft.Owin.Host.SystemWeb/CallHeaders/AspNetResponseHeaders.cs:línea 108
+   en Microsoft.Owin.Infrastructure.ChunkingCookieManager.AppendResponseCookie(IOwinContext context, String key, String value, CookieOptions options) en /_/src/Microsoft.Owin/Infrastructure/ChunkingCookieManager.cs:línea 216
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.SetAuthCookie(AuthenticationTicket ticket, Boolean isPersistent, Nullable`1 expiresUtc)
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.<Renew>d__12.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.<ApplyResponseGrantAsync>d__2.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseCoreAsync>d__40.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 179
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseAsync>d__39.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 167
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<TeardownAsync>d__34.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 96
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__5.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationMiddleware.cs:línea 32
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.Owin.Cookies.Cookies.CookieSaverMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.AnonymousUserMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.SitefinityAuthenticationMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.AccessControlMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.SslOffloaderMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.HttpsRedirectMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()›››
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:24608
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: da497f2e-5f8d-416c-a3b6-d4998c3aa8e8
+
+Timestamp: 30/8/2025 3:17:53
+
+Message: ‹‹‹System.Web.HttpException (0x80004005): El servidor no puede anexar un encabezado después de enviar los encabezados HTTP.
+   en System.Web.HttpHeaderCollection.SetHeader(String name, String value, Boolean replace)
+   en Microsoft.Owin.Host.SystemWeb.CallHeaders.AspNetResponseHeaders.Set(String key, String[] values) en /_/src/Microsoft.Owin.Host.SystemWeb/CallHeaders/AspNetResponseHeaders.cs:línea 108
+   en Microsoft.Owin.Infrastructure.ChunkingCookieManager.AppendResponseCookie(IOwinContext context, String key, String value, CookieOptions options) en /_/src/Microsoft.Owin/Infrastructure/ChunkingCookieManager.cs:línea 216
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.SetAuthCookie(AuthenticationTicket ticket, Boolean isPersistent, Nullable`1 expiresUtc)
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.<Renew>d__12.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.<ApplyResponseGrantAsync>d__2.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseCoreAsync>d__40.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 179
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseAsync>d__39.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 167
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<TeardownAsync>d__34.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 96
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__5.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationMiddleware.cs:línea 32
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.Owin.Cookies.Cookies.CookieSaverMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.AnonymousUserMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.SitefinityAuthenticationMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.AccessControlMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.SslOffloaderMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.HttpsRedirectMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()›››
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:21480
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: b3edb6c1-5713-4bde-bf86-a667c70c8d2c
+
+Timestamp: 8/30/2025 3:17:53 AM
+
+Message: HandlingInstanceID: bfd6ebb0-ef1e-4c6b-819d-3cd98f9b0176
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+08/29/2025 22:17:53
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹El servidor no puede anexar un encabezado después de enviar los encabezados HTTP.›››
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void MoveNext()›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Owin.SitefinityMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContextStage.<RunApp>d__7.MoveNext() in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContextStage.cs:line 85
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContext.<DoFinalWork>d__12.MoveNext() in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContext.cs:line 153
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.StageAsyncResult.End(IAsyncResult ar) in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/StageAsyncResult.cs:line 76
+   at System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 8/30/2025 3:17:53 AM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-134009618207066132
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\intranet
+Requested URL : http://localhost:8081/linicio
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:24608
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: da497f2e-5f8d-416c-a3b6-d4998c3aa8e8
+
+Timestamp: 8/30/2025 3:17:53 AM
+
+Message: HandlingInstanceID: 7ef6d0df-1f6b-4b00-a807-a047e9e4fecc
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+08/29/2025 22:17:53
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹El servidor no puede anexar un encabezado después de enviar los encabezados HTTP.›››
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void MoveNext()›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Owin.SitefinityMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContextStage.<RunApp>d__7.MoveNext() in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContextStage.cs:line 85
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContext.<DoFinalWork>d__12.MoveNext() in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContext.cs:line 153
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.StageAsyncResult.End(IAsyncResult ar) in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/StageAsyncResult.cs:line 76
+   at System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 8/30/2025 3:17:53 AM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-134009618207066132
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\intranet
+Requested URL : http://localhost:8081/linicio
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:21480
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 1f548480-4739-4f10-916c-f41fa0de43b4
+
+Timestamp: 30/8/2025 3:17:59
+
+Message: ‹‹‹System.Web.HttpException (0x80004005): El servidor no puede anexar un encabezado después de enviar los encabezados HTTP.
+   en System.Web.HttpHeaderCollection.SetHeader(String name, String value, Boolean replace)
+   en Microsoft.Owin.Host.SystemWeb.CallHeaders.AspNetResponseHeaders.Set(String key, String[] values) en /_/src/Microsoft.Owin.Host.SystemWeb/CallHeaders/AspNetResponseHeaders.cs:línea 108
+   en Microsoft.Owin.Infrastructure.ChunkingCookieManager.AppendResponseCookie(IOwinContext context, String key, String value, CookieOptions options) en /_/src/Microsoft.Owin/Infrastructure/ChunkingCookieManager.cs:línea 216
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.SetAuthCookie(AuthenticationTicket ticket, Boolean isPersistent, Nullable`1 expiresUtc)
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.<Renew>d__12.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.<ApplyResponseGrantAsync>d__2.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseCoreAsync>d__40.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 179
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseAsync>d__39.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 167
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<TeardownAsync>d__34.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 96
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__5.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationMiddleware.cs:línea 32
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.Owin.Cookies.Cookies.CookieSaverMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.AnonymousUserMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.SitefinityAuthenticationMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.AccessControlMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.SslOffloaderMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.HttpsRedirectMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()›››
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:24608
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 1f548480-4739-4f10-916c-f41fa0de43b4
+
+Timestamp: 8/30/2025 3:17:59 AM
+
+Message: HandlingInstanceID: 9ba21bc3-1292-480e-8fbb-a02dc0e60a79
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+08/29/2025 22:17:59
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹El servidor no puede anexar un encabezado después de enviar los encabezados HTTP.›››
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void MoveNext()›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Owin.SitefinityMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContextStage.<RunApp>d__7.MoveNext() in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContextStage.cs:line 85
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContext.<DoFinalWork>d__12.MoveNext() in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContext.cs:line 153
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.StageAsyncResult.End(IAsyncResult ar) in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/StageAsyncResult.cs:line 76
+   at System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 8/30/2025 3:17:59 AM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-134009618207066132
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\intranet
+Requested URL : http://localhost:8081/inicio
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:24608
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 8e335468-d8d6-454c-bdfa-95bff158a114
+
+Timestamp: 30/8/2025 3:17:59
+
+Message: ‹‹‹System.Web.HttpException (0x80004005): El servidor no puede anexar un encabezado después de enviar los encabezados HTTP.
+   en System.Web.HttpHeaderCollection.SetHeader(String name, String value, Boolean replace)
+   en Microsoft.Owin.Host.SystemWeb.CallHeaders.AspNetResponseHeaders.Set(String key, String[] values) en /_/src/Microsoft.Owin.Host.SystemWeb/CallHeaders/AspNetResponseHeaders.cs:línea 108
+   en Microsoft.Owin.Infrastructure.ChunkingCookieManager.AppendResponseCookie(IOwinContext context, String key, String value, CookieOptions options) en /_/src/Microsoft.Owin/Infrastructure/ChunkingCookieManager.cs:línea 216
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.SetAuthCookie(AuthenticationTicket ticket, Boolean isPersistent, Nullable`1 expiresUtc)
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.<Renew>d__12.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Cookies.SitefinityCookieAuthenticationHandler.<ApplyResponseGrantAsync>d__2.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseCoreAsync>d__40.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 179
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<ApplyResponseAsync>d__39.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 167
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationHandler.<TeardownAsync>d__34.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationHandler.cs:línea 96
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__5.MoveNext() en /_/src/Microsoft.Owin.Security/Infrastructure/AuthenticationMiddleware.cs:línea 32
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.Owin.Cookies.Cookies.CookieSaverMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.AnonymousUserMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Authentication.Infrastructure.SitefinityAuthenticationMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.AccessControlMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.SslOffloaderMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.HttpsRedirectMiddleware.<Invoke>d__1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()›››
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:11652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 8e335468-d8d6-454c-bdfa-95bff158a114
+
+Timestamp: 8/30/2025 3:17:59 AM
+
+Message: HandlingInstanceID: 63b8de5b-fc94-495f-8555-e99e29d0c9a1
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+08/29/2025 22:17:59
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹El servidor no puede anexar un encabezado después de enviar los encabezados HTTP.›››
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void MoveNext()›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Owin.SitefinityMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContextStage.<RunApp>d__7.MoveNext() in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContextStage.cs:line 85
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.IntegratedPipelineContext.<DoFinalWork>d__12.MoveNext() in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/IntegratedPipelineContext.cs:line 153
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Owin.Host.SystemWeb.IntegratedPipeline.StageAsyncResult.End(IAsyncResult ar) in /_/src/Microsoft.Owin.Host.SystemWeb/IntegratedPipeline/StageAsyncResult.cs:line 76
+   at System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 8/30/2025 3:17:59 AM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-134009618207066132
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\intranet
+Requested URL : http://localhost:8081/inicio
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:11652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: facefd26-ffda-42af-be31-5796f1f9c764
+
+Timestamp: 8/30/2025 3:18:31 AM
+
+Message: HandlingInstanceID: 6b23a046-9f76-4655-9b29-3cd16f5aaf7e
+An exception of type 'System.DirectoryServices.Protocols.LdapException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+08/29/2025 22:18:31
+Type : System.DirectoryServices.Protocols.LdapException, System.DirectoryServices.Protocols, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹The LDAP server is unavailable.›››
+Source : System.DirectoryServices.Protocols
+Help link : 
+ErrorCode : ‹‹‹81›››
+ServerErrorMessage : 
+PartialResults : ‹‹‹System.DirectoryServices.Protocols.PartialResultsCollection›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Connect()›››
+HResult : ‹‹‹-2146233088›››
+Stack Trace :    at System.DirectoryServices.Protocols.LdapConnection.Connect()
+   at System.DirectoryServices.Protocols.LdapConnection.SendRequestHelper(DirectoryRequest request, Int32& messageID)
+   at System.DirectoryServices.Protocols.LdapConnection.SendRequest(DirectoryRequest request, TimeSpan requestTimeout)
+   at Telerik.Sitefinity.Security.Ldap.LdapFacade.Search(LdapQuery query, String rootDN, Int32 pageSize)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 8/30/2025 3:18:31 AM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-134009618207066132
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\intranet
+Requested URL : http://localhost:8081/Sitefinity/Login?ReturnUrl=http%3a%2f%2flocalhost%3a8081%2fSitefinity%2fadminapp%2fcontent%2fdocuments%2f1746b6de-9cd4-4c3a-b27c-8b012fb0e0a1%2fdocuments%2f3dd8c90a-0884-45b4-9dfb-dd704d53f740%2fedit%3fsf_provider%3dOpenAccessDataProvider%26sf_culture%3den
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:24116
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: facefd26-ffda-42af-be31-5796f1f9c764
+
+Timestamp: 8/30/2025 3:18:53 AM
+
+Message: HandlingInstanceID: 6e3232c3-c867-4bdf-992f-a16143554071
+An exception of type 'System.DirectoryServices.Protocols.LdapException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+08/29/2025 22:18:53
+Type : System.DirectoryServices.Protocols.LdapException, System.DirectoryServices.Protocols, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹The LDAP server returned an unknown error.›››
+Source : System.DirectoryServices.Protocols
+Help link : 
+ErrorCode : ‹‹‹52›››
+ServerErrorMessage : 
+PartialResults : ‹‹‹System.DirectoryServices.Protocols.PartialResultsCollection›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Connect()›››
+HResult : ‹‹‹-2146233088›››
+Stack Trace :    at System.DirectoryServices.Protocols.LdapConnection.Connect()
+   at System.DirectoryServices.Protocols.LdapConnection.SendRequestHelper(DirectoryRequest request, Int32& messageID)
+   at System.DirectoryServices.Protocols.LdapConnection.SendRequest(DirectoryRequest request, TimeSpan requestTimeout)
+   at Telerik.Sitefinity.Security.Ldap.LdapFacade.Search(LdapQuery query, String rootDN, Int32 pageSize)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 8/30/2025 3:18:53 AM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-134009618207066132
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\intranet
+Requested URL : http://localhost:8081/Sitefinity/Login?ReturnUrl=http%3a%2f%2flocalhost%3a8081%2fSitefinity%2fadminapp%2fcontent%2fdocuments%2f1746b6de-9cd4-4c3a-b27c-8b012fb0e0a1%2fdocuments%2f3dd8c90a-0884-45b4-9dfb-dd704d53f740%2fedit%3fsf_provider%3dOpenAccessDataProvider%26sf_culture%3den
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:24116
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: facefd26-ffda-42af-be31-5796f1f9c764
+
+Timestamp: 8/30/2025 3:19:14 AM
+
+Message: HandlingInstanceID: c89f55db-0b4e-4be3-9c0c-7064bbfb6d3c
+An exception of type 'System.DirectoryServices.Protocols.LdapException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+08/29/2025 22:19:14
+Type : System.DirectoryServices.Protocols.LdapException, System.DirectoryServices.Protocols, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹The LDAP server returned an unknown error.›››
+Source : System.DirectoryServices.Protocols
+Help link : 
+ErrorCode : ‹‹‹52›››
+ServerErrorMessage : 
+PartialResults : ‹‹‹System.DirectoryServices.Protocols.PartialResultsCollection›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Connect()›››
+HResult : ‹‹‹-2146233088›››
+Stack Trace :    at System.DirectoryServices.Protocols.LdapConnection.Connect()
+   at System.DirectoryServices.Protocols.LdapConnection.SendRequestHelper(DirectoryRequest request, Int32& messageID)
+   at System.DirectoryServices.Protocols.LdapConnection.SendRequest(DirectoryRequest request, TimeSpan requestTimeout)
+   at Telerik.Sitefinity.Security.Ldap.LdapFacade.Search(LdapQuery query, String rootDN, Int32 pageSize)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 8/30/2025 3:19:14 AM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-134009618207066132
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\intranet
+Requested URL : http://localhost:8081/Sitefinity/Login?ReturnUrl=http%3a%2f%2flocalhost%3a8081%2fSitefinity%2fadminapp%2fcontent%2fdocuments%2f1746b6de-9cd4-4c3a-b27c-8b012fb0e0a1%2fdocuments%2f3dd8c90a-0884-45b4-9dfb-dd704d53f740%2fedit%3fsf_provider%3dOpenAccessDataProvider%26sf_culture%3den
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134009618207066132
+
+ProcessId: 14552
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:24116
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 30/8/2025 18:08:49
+
+Message: HandlingInstanceID: 4b981a18-ff0d-4ef4-8206-5249e0ca14c6
+An exception of type 'System.DirectoryServices.Protocols.LdapException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+08/30/2025 13:08:49
+Type : System.DirectoryServices.Protocols.LdapException, System.DirectoryServices.Protocols, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹The LDAP server is unavailable.›››
+Source : System.DirectoryServices.Protocols
+Help link : 
+ErrorCode : ‹‹‹81›››
+ServerErrorMessage : 
+PartialResults : ‹‹‹System.DirectoryServices.Protocols.PartialResultsCollection›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Connect()›››
+HResult : ‹‹‹-2146233088›››
+Stack Trace :    at System.DirectoryServices.Protocols.LdapConnection.Connect()
+   at System.DirectoryServices.Protocols.LdapConnection.SendRequestHelper(DirectoryRequest request, Int32& messageID)
+   at System.DirectoryServices.Protocols.LdapConnection.SendRequest(DirectoryRequest request, TimeSpan requestTimeout)
+   at Telerik.Sitefinity.Security.Ldap.LdapFacade.Search(LdapQuery query, String rootDN, Int32 pageSize)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 30/8/2025 18:08:49
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-134010508460297577
+ThreadIdentity : system
+WindowsIdentity : IIS APPPOOL\intranet
+Requested URL : http://localhost:8081/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134010508460297577
+
+ProcessId: 30836
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: BackgroundTasksService-Thread-2
+
+Win32 ThreadId:22724
+
+Extended Properties: 
+----------------------------------------

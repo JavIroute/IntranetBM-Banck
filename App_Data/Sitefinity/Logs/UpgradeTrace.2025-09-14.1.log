@@ -1,0 +1,149 @@
+----------------------------------------
+ActivityId: e1e48010-f432-4497-97aa-9d6035082dfa
+
+Timestamp: 9/12/2025 3:37:39 PM
+
+Message: ‹‹‹Db Migration Complexity: Extending›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: e1e48010-f432-4497-97aa-9d6035082dfa
+
+Timestamp: 9/12/2025 3:37:39 PM
+
+Message: ‹‹‹Adding a foreign key constraint(s) to an existing table(s).›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: e1e48010-f432-4497-97aa-9d6035082dfa
+
+Timestamp: 9/12/2025 3:37:39 PM
+
+Message: ‹‹‹Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: e1e48010-f432-4497-97aa-9d6035082dfa
+
+Timestamp: 9/12/2025 3:37:39 PM
+
+Message: ‹‹‹Adding an index(indices) definition for a new table(s), the create table statement(s) is included as well.›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: e1e48010-f432-4497-97aa-9d6035082dfa
+
+Timestamp: 9/12/2025 3:37:39 PM
+
+Message: ‹‹‹Adding a new table(s).›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: e1e48010-f432-4497-97aa-9d6035082dfa
+
+Timestamp: 9/12/2025 3:37:39 PM
+
+Message: ‹‹‹-- Telerik.OpenAccess.TrackedList`1[[System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] Telerik.Sitefinity.DynamicTypes.Model.apps.Apps.appsperfiles
+CREATE TABLE [apps_apps_appsperfiles] (
+    [base_id] uniqueidentifier NOT NULL,
+    [seq] int NOT NULL,                     -- <sequence>
+    [val] uniqueidentifier NULL,            -- <value>
+    CONSTRAINT [pk_apps_apps_appsperfiles] PRIMARY KEY ([base_id], [seq])
+)›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: e1e48010-f432-4497-97aa-9d6035082dfa
+
+Timestamp: 9/12/2025 3:37:39 PM
+
+Message: ‹‹‹ALTER TABLE [apps_apps_appsperfiles] ADD CONSTRAINT [ref_apps_pps_ppsprfls_406922A9] FOREIGN KEY ([base_id]) REFERENCES [apps_apps]([base_id])›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: e1e48010-f432-4497-97aa-9d6035082dfa
+
+Timestamp: 9/12/2025 3:37:39 PM
+
+Message: ‹‹‹-- Index 'idx_apps_apps_appsperfiles_val' was not detected in the database. It will be created
+CREATE INDEX [idx_apps_apps_appsperfiles_val] ON [apps_apps_appsperfiles]([val])›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 7a52524b-4abe-493e-8880-f8e30cce8883
+
+Timestamp: 9/12/2025 3:43:08 PM
+
+Message: ‹‹‹Db Migration Complexity: Trivial›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 7a52524b-4abe-493e-8880-f8e30cce8883
+
+Timestamp: 9/12/2025 3:43:08 PM
+
+Message: ‹‹‹Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 7a52524b-4abe-493e-8880-f8e30cce8883
+
+Timestamp: 9/12/2025 3:43:08 PM
+
+Message: ‹‹‹Adding an index(indices) definition for a new table(s), the create table statement(s) is included as well.›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 7a52524b-4abe-493e-8880-f8e30cce8883
+
+Timestamp: 9/12/2025 3:43:08 PM
+
+Message: ‹‹‹Adding a new table(s).›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 7a52524b-4abe-493e-8880-f8e30cce8883
+
+Timestamp: 9/12/2025 3:43:08 PM
+
+Message: ‹‹‹-- Telerik.OpenAccess.TrackedList`1[[System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] Telerik.Sitefinity.Libraries.Model.Document.docsroles
+CREATE TABLE [sf_media_content_docsroles] (
+    [content_id] uniqueidentifier NOT NULL,
+    [seq] int NOT NULL,                     -- <sequence>
+    [val] uniqueidentifier NULL,            -- <value>
+    CONSTRAINT [pk_sf_media_content_docsroles] PRIMARY KEY ([content_id], [seq])
+)›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 7a52524b-4abe-493e-8880-f8e30cce8883
+
+Timestamp: 9/12/2025 3:43:08 PM
+
+Message: ‹‹‹ALTER TABLE [sf_media_content_docsroles] ADD CONSTRAINT [ref_sf_md_cntnt_dcsrl_D4A34018] FOREIGN KEY ([content_id]) REFERENCES [sf_media_content]([content_id])›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 7a52524b-4abe-493e-8880-f8e30cce8883
+
+Timestamp: 9/12/2025 3:43:08 PM
+
+Message: ‹‹‹-- Index 'idx_sf_md_cntent_docsroles_val' was not detected in the database. It will be created
+CREATE INDEX [idx_sf_md_cntent_docsroles_val] ON [sf_media_content_docsroles]([val])›››
+
+
+----------------------------------------

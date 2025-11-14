@@ -1,0 +1,238 @@
+----------------------------------------
+ActivityId: 6607a268-d344-4c62-be0c-116e8bca8e9c
+
+Timestamp: 9/15/2025 1:41:24 AM
+
+Message: ‹‹‹Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.DynamicModules.Data.OpenAccessDynamicModuleProvider;Telerik.Sitefinity.DynamicModules.Builder.Data.OpenAccessModuleBuilderDataProvider|HasDeletedFields'. User: 'walter.villamar@iroute.com.ec'. StackTrace: '
+Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
+Telerik.Sitefinity.Data.TransactionManager: Void CommitTransaction(System.String)
+Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderHelper: Telerik.Sitefinity.DynamicModules.Builder.Data.ContentTypeContext SaveContentType(System.Guid, Telerik.Sitefinity.DynamicModules.Builder.Data.ContentTypeContext, System.String, Boolean)
+Telerik.Sitefinity.DynamicModules.Builder.Web.Services.ContentTypeService: Telerik.Sitefinity.DynamicModules.Builder.Data.ContentTypeContext SaveContentTypeInternal(System.String, Telerik.Sitefinity.DynamicModules.Builder.Data.ContentTypeContext, System.String, Boolean)
+unknown: System.Object SyncInvokeSaveContentType(System.Object, System.Object[], System.Object[])
+System.ServiceModel.Dispatcher.SyncMethodInvoker: System.Object Invoke(System.Object, System.Object[], System.Object[] ByRef)
+System.ServiceModel.Dispatcher.DispatchOperationRuntime: Void InvokeBegin(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.ImmutableDispatchRuntime: Void ProcessMessage5(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.ImmutableDispatchRuntime: Void ProcessMessage11(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.MessageRpc: Boolean Process(Boolean)
+System.ServiceModel.Dispatcher.ChannelHandler: Boolean DispatchAndReleasePump(System.ServiceModel.Channels.RequestContext, Boolean, System.ServiceModel.OperationContext)
+System.ServiceModel.Dispatcher.ChannelHandler: Boolean HandleRequest(System.ServiceModel.Channels.RequestContext, System.ServiceModel.OperationContext)
+System.ServiceModel.Dispatcher.ChannelHandler: Void AsyncMessagePump(System.IAsyncResult)
+System.ServiceModel.Dispatcher.ChannelHandler: Void OnAsyncReceiveComplete(System.IAsyncResult)
+System.Runtime.Fx+AsyncThunk: Void UnhandledExceptionFrame(System.IAsyncResult)
+Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.AsyncResult: Void Complete(Boolean)
+Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.RequestInterceptorReplyChannelBase`1+TryReceiveRequestAsyncResult: Void InnerTryReceiveCallback(System.IAsyncResult)
+System.Runtime.AsyncResult: Void Complete(Boolean)
+System.Runtime.InputQueue`1+AsyncQueueReader: Void Set(Item)
+System.Runtime.InputQueue`1: Void EnqueueAndDispatch(Item, Boolean)
+System.Runtime.InputQueue`1: Void EnqueueAndDispatch(T, System.Action, Boolean)
+System.ServiceModel.Channels.SingletonChannelAcceptor`3: Void Enqueue(QueueItemType, System.Action, Boolean)
+System.ServiceModel.Channels.HttpPipeline+EnqueueMessageAsyncResult: Void CompleteParseAndEnqueue(System.IAsyncResult)
+System.ServiceModel.Channels.HttpPipeline+EnqueueMessageAsyncResult: Boolean HandleParseIncomingMessage(System.IAsyncResult)
+System.Runtime.AsyncResult: Boolean SyncContinue(System.IAsyncResult)
+System.ServiceModel.Channels.HttpPipeline+EmptyHttpPipeline: System.IAsyncResult BeginProcessInboundRequest(System.ServiceModel.Channels.ReplyChannelAcceptor, System.Action, System.AsyncCallback, System.Object)
+System.ServiceModel.Channels.HttpChannelListener`1+HttpContextReceivedAsyncResult`1: System.Runtime.AsyncCompletionResult ProcessHttpContextAsync()
+System.ServiceModel.Channels.HttpChannelListener`1: System.IAsyncResult BeginHttpContextReceived(System.ServiceModel.Channels.HttpRequestContext, System.Action, System.AsyncCallback, System.Object)
+System.ServiceModel.Activation.HostedHttpTransportManager: Void HttpContextReceived(System.ServiceModel.Activation.HostedHttpRequestAsyncResult)
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void HandleRequest()
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void BeginRequest()
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void OnBeginRequest(System.Object)
+System.ServiceModel.AspNetPartialTrustHelpers: Void PartialTrustInvoke(System.Threading.ContextCallback, System.Object)
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void OnBeginRequestWithFlow(System.Object)
+System.Runtime.IOThreadScheduler+ScheduledOverlapped: Void IOCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+System.Runtime.Fx+IOCompletionThunk: Void UnhandledExceptionFrame(UInt32, UInt32, System.Threading.NativeOverlapped*)
+System.Threading._IOCompletionCallback: Void PerformIOCompletionCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)'.›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 6dab1ff7-1bea-40cf-aac7-d55e95c63d75
+
+Timestamp: 9/15/2025 1:46:04 AM
+
+Message: ‹‹‹Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.DynamicModules.Data.OpenAccessDynamicModuleProvider;Telerik.Sitefinity.DynamicModules.Builder.Data.OpenAccessModuleBuilderDataProvider'. User: 'walter.villamar@iroute.com.ec'. StackTrace: '
+Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
+Telerik.Sitefinity.Data.TransactionManager: Void CommitTransaction(System.String)
+Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderHelper: Telerik.Sitefinity.DynamicModules.Builder.Data.ContentTypeContext SaveContentType(System.Guid, Telerik.Sitefinity.DynamicModules.Builder.Data.ContentTypeContext, System.String, Boolean)
+Telerik.Sitefinity.DynamicModules.Builder.Web.Services.ContentTypeService: Telerik.Sitefinity.DynamicModules.Builder.Data.ContentTypeContext SaveContentTypeInternal(System.String, Telerik.Sitefinity.DynamicModules.Builder.Data.ContentTypeContext, System.String, Boolean)
+unknown: System.Object SyncInvokeSaveContentType(System.Object, System.Object[], System.Object[])
+System.ServiceModel.Dispatcher.SyncMethodInvoker: System.Object Invoke(System.Object, System.Object[], System.Object[] ByRef)
+System.ServiceModel.Dispatcher.DispatchOperationRuntime: Void InvokeBegin(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.ImmutableDispatchRuntime: Void ProcessMessage5(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.ImmutableDispatchRuntime: Void ProcessMessage11(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.MessageRpc: Boolean Process(Boolean)
+System.ServiceModel.Dispatcher.ChannelHandler: Boolean DispatchAndReleasePump(System.ServiceModel.Channels.RequestContext, Boolean, System.ServiceModel.OperationContext)
+System.ServiceModel.Dispatcher.ChannelHandler: Boolean HandleRequest(System.ServiceModel.Channels.RequestContext, System.ServiceModel.OperationContext)
+System.ServiceModel.Dispatcher.ChannelHandler: Void AsyncMessagePump(System.IAsyncResult)
+System.ServiceModel.Dispatcher.ChannelHandler: Void OnAsyncReceiveComplete(System.IAsyncResult)
+System.Runtime.Fx+AsyncThunk: Void UnhandledExceptionFrame(System.IAsyncResult)
+Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.AsyncResult: Void Complete(Boolean)
+Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.RequestInterceptorReplyChannelBase`1+TryReceiveRequestAsyncResult: Void InnerTryReceiveCallback(System.IAsyncResult)
+System.Runtime.AsyncResult: Void Complete(Boolean)
+System.Runtime.InputQueue`1+AsyncQueueReader: Void Set(Item)
+System.Runtime.InputQueue`1: Void EnqueueAndDispatch(Item, Boolean)
+System.Runtime.InputQueue`1: Void EnqueueAndDispatch(T, System.Action, Boolean)
+System.ServiceModel.Channels.SingletonChannelAcceptor`3: Void Enqueue(QueueItemType, System.Action, Boolean)
+System.ServiceModel.Channels.HttpPipeline+EnqueueMessageAsyncResult: Void CompleteParseAndEnqueue(System.IAsyncResult)
+System.ServiceModel.Channels.HttpPipeline+EnqueueMessageAsyncResult: Boolean HandleParseIncomingMessage(System.IAsyncResult)
+System.Runtime.AsyncResult: Boolean SyncContinue(System.IAsyncResult)
+System.ServiceModel.Channels.HttpPipeline+EmptyHttpPipeline: System.IAsyncResult BeginProcessInboundRequest(System.ServiceModel.Channels.ReplyChannelAcceptor, System.Action, System.AsyncCallback, System.Object)
+System.ServiceModel.Channels.HttpChannelListener`1+HttpContextReceivedAsyncResult`1: System.Runtime.AsyncCompletionResult ProcessHttpContextAsync()
+System.ServiceModel.Channels.HttpChannelListener`1: System.IAsyncResult BeginHttpContextReceived(System.ServiceModel.Channels.HttpRequestContext, System.Action, System.AsyncCallback, System.Object)
+System.ServiceModel.Activation.HostedHttpTransportManager: Void HttpContextReceived(System.ServiceModel.Activation.HostedHttpRequestAsyncResult)
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void HandleRequest()
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void BeginRequest()
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void OnBeginRequest(System.Object)
+System.ServiceModel.AspNetPartialTrustHelpers: Void PartialTrustInvoke(System.Threading.ContextCallback, System.Object)
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void OnBeginRequestWithFlow(System.Object)
+System.Runtime.IOThreadScheduler+ScheduledOverlapped: Void IOCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+System.Runtime.Fx+IOCompletionThunk: Void UnhandledExceptionFrame(UInt32, UInt32, System.Threading.NativeOverlapped*)
+System.Threading._IOCompletionCallback: Void PerformIOCompletionCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)'.›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 808315d8-5c99-4f1a-bfe3-78bb2f7c335c
+
+Timestamp: 9/15/2025 2:37:57 AM
+
+Message: ‹‹‹Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.DynamicModules.Data.OpenAccessDynamicModuleProvider;Telerik.Sitefinity.DynamicModules.Builder.Data.OpenAccessModuleBuilderDataProvider'. User: 'walter.villamar@iroute.com.ec'. StackTrace: '
+Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
+Telerik.Sitefinity.Data.TransactionManager: Void CommitTransaction(System.String)
+Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderHelper: Telerik.Sitefinity.DynamicModules.Builder.Data.ContentTypeContext SaveContentType(System.Guid, Telerik.Sitefinity.DynamicModules.Builder.Data.ContentTypeContext, System.String, Boolean)
+Telerik.Sitefinity.DynamicModules.Builder.Web.Services.ContentTypeService: Telerik.Sitefinity.DynamicModules.Builder.Data.ContentTypeContext SaveContentTypeInternal(System.String, Telerik.Sitefinity.DynamicModules.Builder.Data.ContentTypeContext, System.String, Boolean)
+unknown: System.Object SyncInvokeSaveContentType(System.Object, System.Object[], System.Object[])
+System.ServiceModel.Dispatcher.SyncMethodInvoker: System.Object Invoke(System.Object, System.Object[], System.Object[] ByRef)
+System.ServiceModel.Dispatcher.DispatchOperationRuntime: Void InvokeBegin(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.ImmutableDispatchRuntime: Void ProcessMessage5(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.ImmutableDispatchRuntime: Void ProcessMessage11(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.MessageRpc: Boolean Process(Boolean)
+System.ServiceModel.Dispatcher.ChannelHandler: Boolean DispatchAndReleasePump(System.ServiceModel.Channels.RequestContext, Boolean, System.ServiceModel.OperationContext)
+System.ServiceModel.Dispatcher.ChannelHandler: Boolean HandleRequest(System.ServiceModel.Channels.RequestContext, System.ServiceModel.OperationContext)
+System.ServiceModel.Dispatcher.ChannelHandler: Void AsyncMessagePump(System.IAsyncResult)
+System.ServiceModel.Dispatcher.ChannelHandler: Void OnAsyncReceiveComplete(System.IAsyncResult)
+System.Runtime.Fx+AsyncThunk: Void UnhandledExceptionFrame(System.IAsyncResult)
+Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.AsyncResult: Void Complete(Boolean)
+Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.RequestInterceptorReplyChannelBase`1+TryReceiveRequestAsyncResult: Void InnerTryReceiveCallback(System.IAsyncResult)
+System.Runtime.AsyncResult: Void Complete(Boolean)
+System.Runtime.InputQueue`1+AsyncQueueReader: Void Set(Item)
+System.Runtime.InputQueue`1: Void EnqueueAndDispatch(Item, Boolean)
+System.Runtime.InputQueue`1: Void EnqueueAndDispatch(T, System.Action, Boolean)
+System.ServiceModel.Channels.SingletonChannelAcceptor`3: Void Enqueue(QueueItemType, System.Action, Boolean)
+System.ServiceModel.Channels.HttpPipeline+EnqueueMessageAsyncResult: Void CompleteParseAndEnqueue(System.IAsyncResult)
+System.ServiceModel.Channels.HttpPipeline+EnqueueMessageAsyncResult: Boolean HandleParseIncomingMessage(System.IAsyncResult)
+System.Runtime.AsyncResult: Boolean SyncContinue(System.IAsyncResult)
+System.ServiceModel.Channels.HttpPipeline+EmptyHttpPipeline: System.IAsyncResult BeginProcessInboundRequest(System.ServiceModel.Channels.ReplyChannelAcceptor, System.Action, System.AsyncCallback, System.Object)
+System.ServiceModel.Channels.HttpChannelListener`1+HttpContextReceivedAsyncResult`1: System.Runtime.AsyncCompletionResult ProcessHttpContextAsync()
+System.ServiceModel.Channels.HttpChannelListener`1: System.IAsyncResult BeginHttpContextReceived(System.ServiceModel.Channels.HttpRequestContext, System.Action, System.AsyncCallback, System.Object)
+System.ServiceModel.Activation.HostedHttpTransportManager: Void HttpContextReceived(System.ServiceModel.Activation.HostedHttpRequestAsyncResult)
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void HandleRequest()
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void BeginRequest()
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void OnBeginRequest(System.Object)
+System.ServiceModel.AspNetPartialTrustHelpers: Void PartialTrustInvoke(System.Threading.ContextCallback, System.Object)
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void OnBeginRequestWithFlow(System.Object)
+System.Runtime.IOThreadScheduler+ScheduledOverlapped: Void IOCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+System.Runtime.Fx+IOCompletionThunk: Void UnhandledExceptionFrame(UInt32, UInt32, System.Threading.NativeOverlapped*)
+System.Threading._IOCompletionCallback: Void PerformIOCompletionCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)'.›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 5d29784b-04c0-435a-9fe2-a83df4b1ed21
+
+Timestamp: 9/15/2025 2:49:29 AM
+
+Message: ‹‹‹Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.DynamicModules.Data.OpenAccessDynamicModuleProvider;Telerik.Sitefinity.DynamicModules.Builder.Data.OpenAccessModuleBuilderDataProvider|HasDeletedFields'. User: 'walter.villamar@iroute.com.ec'. StackTrace: '
+Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
+Telerik.Sitefinity.Data.TransactionManager: Void CommitTransaction(System.String)
+Telerik.Sitefinity.DynamicModules.Builder.ModuleBuilderHelper: Telerik.Sitefinity.DynamicModules.Builder.Data.ContentTypeContext SaveContentType(System.Guid, Telerik.Sitefinity.DynamicModules.Builder.Data.ContentTypeContext, System.String, Boolean)
+Telerik.Sitefinity.DynamicModules.Builder.Web.Services.ContentTypeService: Telerik.Sitefinity.DynamicModules.Builder.Data.ContentTypeContext SaveContentTypeInternal(System.String, Telerik.Sitefinity.DynamicModules.Builder.Data.ContentTypeContext, System.String, Boolean)
+unknown: System.Object SyncInvokeSaveContentType(System.Object, System.Object[], System.Object[])
+System.ServiceModel.Dispatcher.SyncMethodInvoker: System.Object Invoke(System.Object, System.Object[], System.Object[] ByRef)
+System.ServiceModel.Dispatcher.DispatchOperationRuntime: Void InvokeBegin(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.ImmutableDispatchRuntime: Void ProcessMessage5(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.ImmutableDispatchRuntime: Void ProcessMessage11(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.MessageRpc: Boolean Process(Boolean)
+System.ServiceModel.Dispatcher.ChannelHandler: Boolean DispatchAndReleasePump(System.ServiceModel.Channels.RequestContext, Boolean, System.ServiceModel.OperationContext)
+System.ServiceModel.Dispatcher.ChannelHandler: Boolean HandleRequest(System.ServiceModel.Channels.RequestContext, System.ServiceModel.OperationContext)
+System.ServiceModel.Dispatcher.ChannelHandler: Void AsyncMessagePump(System.IAsyncResult)
+System.ServiceModel.Dispatcher.ChannelHandler: Void OnAsyncReceiveComplete(System.IAsyncResult)
+System.Runtime.Fx+AsyncThunk: Void UnhandledExceptionFrame(System.IAsyncResult)
+Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.AsyncResult: Void Complete(Boolean)
+Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.RequestInterceptorReplyChannelBase`1+TryReceiveRequestAsyncResult: Void InnerTryReceiveCallback(System.IAsyncResult)
+System.Runtime.AsyncResult: Void Complete(Boolean)
+System.Runtime.InputQueue`1+AsyncQueueReader: Void Set(Item)
+System.Runtime.InputQueue`1: Void EnqueueAndDispatch(Item, Boolean)
+System.Runtime.InputQueue`1: Void EnqueueAndDispatch(T, System.Action, Boolean)
+System.ServiceModel.Channels.SingletonChannelAcceptor`3: Void Enqueue(QueueItemType, System.Action, Boolean)
+System.ServiceModel.Channels.HttpPipeline+EnqueueMessageAsyncResult: Void CompleteParseAndEnqueue(System.IAsyncResult)
+System.ServiceModel.Channels.HttpPipeline+EnqueueMessageAsyncResult: Boolean HandleParseIncomingMessage(System.IAsyncResult)
+System.Runtime.AsyncResult: Boolean SyncContinue(System.IAsyncResult)
+System.ServiceModel.Channels.HttpPipeline+EmptyHttpPipeline: System.IAsyncResult BeginProcessInboundRequest(System.ServiceModel.Channels.ReplyChannelAcceptor, System.Action, System.AsyncCallback, System.Object)
+System.ServiceModel.Channels.HttpChannelListener`1+HttpContextReceivedAsyncResult`1: System.Runtime.AsyncCompletionResult ProcessHttpContextAsync()
+System.ServiceModel.Channels.HttpChannelListener`1: System.IAsyncResult BeginHttpContextReceived(System.ServiceModel.Channels.HttpRequestContext, System.Action, System.AsyncCallback, System.Object)
+System.ServiceModel.Activation.HostedHttpTransportManager: Void HttpContextReceived(System.ServiceModel.Activation.HostedHttpRequestAsyncResult)
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void HandleRequest()
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void BeginRequest()
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void OnBeginRequest(System.Object)
+System.ServiceModel.AspNetPartialTrustHelpers: Void PartialTrustInvoke(System.Threading.ContextCallback, System.Object)
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void OnBeginRequestWithFlow(System.Object)
+System.Runtime.IOThreadScheduler+ScheduledOverlapped: Void IOCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+System.Runtime.Fx+IOCompletionThunk: Void UnhandledExceptionFrame(UInt32, UInt32, System.Threading.NativeOverlapped*)
+System.Threading._IOCompletionCallback: Void PerformIOCompletionCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)'.›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: df97092f-5b89-4a1f-8623-7f1d9cef040f
+
+Timestamp: 9/15/2025 3:18:08 AM
+
+Message: ‹‹‹Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.Modules.Libraries.Data.OpenAccessLibrariesProvider|HasDeletedFields'. User: 'walter.villamar@iroute.com.ec'. StackTrace: '
+Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
+Telerik.Sitefinity.Data.Decorators.OpenAccessDecorator: Void EnsureModelReset()
+Telerik.Sitefinity.Data.Metadata.OpenAccessMetaDataProvider: Void CommitTransaction(Boolean)
+DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_8abdd8735f754d88a53fd2b6c809543c: Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn <CommitTransaction_DelegateImplementation>__36(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextInterceptionBehaviorDelegate)
+Telerik.Sitefinity.Data.DataEventsCallHandler: Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn Invoke(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextHandlerDelegate)
+Telerik.Sitefinity.Security.SitefinityAuthorizationCallHandler: Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn Invoke(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextHandlerDelegate)
+DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_8abdd8735f754d88a53fd2b6c809543c: Void CommitTransaction(Boolean)
+DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_8abdd8735f754d88a53fd2b6c809543c: Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn <CommitTransaction_DelegateImplementation>__35(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextInterceptionBehaviorDelegate)
+Telerik.Sitefinity.Data.DataEventsCallHandler: Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn Invoke(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextHandlerDelegate)
+Telerik.Sitefinity.Security.SitefinityAuthorizationCallHandler: Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn Invoke(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextHandlerDelegate)
+DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_8abdd8735f754d88a53fd2b6c809543c: Void CommitTransaction()
+Telerik.Sitefinity.ModuleEditor.Web.Services.Model.CustomFieldsContext: Boolean SaveChanges()
+unknown: System.Object SyncInvokeApplyChanges(System.Object, System.Object[], System.Object[])
+System.ServiceModel.Dispatcher.SyncMethodInvoker: System.Object Invoke(System.Object, System.Object[], System.Object[] ByRef)
+System.ServiceModel.Dispatcher.DispatchOperationRuntime: Void InvokeBegin(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.ImmutableDispatchRuntime: Void ProcessMessage5(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.ImmutableDispatchRuntime: Void ProcessMessage11(System.ServiceModel.Dispatcher.MessageRpc ByRef)
+System.ServiceModel.Dispatcher.MessageRpc: Boolean Process(Boolean)
+System.ServiceModel.Dispatcher.ChannelHandler: Boolean DispatchAndReleasePump(System.ServiceModel.Channels.RequestContext, Boolean, System.ServiceModel.OperationContext)
+System.ServiceModel.Dispatcher.ChannelHandler: Boolean HandleRequest(System.ServiceModel.Channels.RequestContext, System.ServiceModel.OperationContext)
+System.ServiceModel.Dispatcher.ChannelHandler: Void AsyncMessagePump(System.IAsyncResult)
+System.ServiceModel.Dispatcher.ChannelHandler: Void OnAsyncReceiveComplete(System.IAsyncResult)
+System.Runtime.Fx+AsyncThunk: Void UnhandledExceptionFrame(System.IAsyncResult)
+Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.AsyncResult: Void Complete(Boolean)
+Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.RequestInterceptorReplyChannelBase`1+TryReceiveRequestAsyncResult: Void InnerTryReceiveCallback(System.IAsyncResult)
+System.Runtime.AsyncResult: Void Complete(Boolean)
+System.Runtime.InputQueue`1+AsyncQueueReader: Void Set(Item)
+System.Runtime.InputQueue`1: Void EnqueueAndDispatch(Item, Boolean)
+System.Runtime.InputQueue`1: Void EnqueueAndDispatch(T, System.Action, Boolean)
+System.ServiceModel.Channels.SingletonChannelAcceptor`3: Void Enqueue(QueueItemType, System.Action, Boolean)
+System.ServiceModel.Channels.HttpPipeline+EnqueueMessageAsyncResult: Void CompleteParseAndEnqueue(System.IAsyncResult)
+System.ServiceModel.Channels.HttpPipeline+EnqueueMessageAsyncResult: Boolean HandleParseIncomingMessage(System.IAsyncResult)
+System.Runtime.AsyncResult: Boolean SyncContinue(System.IAsyncResult)
+System.ServiceModel.Channels.HttpPipeline+EmptyHttpPipeline: System.IAsyncResult BeginProcessInboundRequest(System.ServiceModel.Channels.ReplyChannelAcceptor, System.Action, System.AsyncCallback, System.Object)
+System.ServiceModel.Channels.HttpChannelListener`1+HttpContextReceivedAsyncResult`1: System.Runtime.AsyncCompletionResult ProcessHttpContextAsync()
+System.ServiceModel.Channels.HttpChannelListener`1: System.IAsyncResult BeginHttpContextReceived(System.ServiceModel.Channels.HttpRequestContext, System.Action, System.AsyncCallback, System.Object)
+System.ServiceModel.Activation.HostedHttpTransportManager: Void HttpContextReceived(System.ServiceModel.Activation.HostedHttpRequestAsyncResult)
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void HandleRequest()
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void BeginRequest()
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void OnBeginRequest(System.Object)
+System.ServiceModel.AspNetPartialTrustHelpers: Void PartialTrustInvoke(System.Threading.ContextCallback, System.Object)
+System.ServiceModel.Activation.HostedHttpRequestAsyncResult: Void OnBeginRequestWithFlow(System.Object)
+System.Runtime.IOThreadScheduler+ScheduledOverlapped: Void IOCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+System.Runtime.Fx+IOCompletionThunk: Void UnhandledExceptionFrame(UInt32, UInt32, System.Threading.NativeOverlapped*)
+System.Threading._IOCompletionCallback: Void PerformIOCompletionCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)'.›››
+
+
+----------------------------------------

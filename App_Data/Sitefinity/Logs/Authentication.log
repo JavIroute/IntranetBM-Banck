@@ -1,0 +1,775 @@
+----------------------------------------
+ActivityId: 2a0e5232-7f51-4ada-978c-792c3f5f42ee
+
+Timestamp: 18/9/2025 16:48:35
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedOff.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134026131511161785
+
+ProcessId: 24160
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:46116
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 43932f59-d4a0-4e87-9445-2c15564ff62b
+
+Timestamp: 18/9/2025 16:48:36
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedOff.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134026131511161785
+
+ProcessId: 24160
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:49720
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: b5e5f49f-b093-432b-b80c-9f5995d17cae
+
+Timestamp: 18/9/2025 16:48:36
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedOff.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134026131511161785
+
+ProcessId: 24160
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:24260
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 8cdc4c33-65c4-49fb-87f4-c64530883efc
+
+Timestamp: 18/9/2025 16:48:36
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedOff.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134026131511161785
+
+ProcessId: 24160
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:24260
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 282e7b7b-c820-4bcd-aab6-a66bd847f8f6
+
+Timestamp: 18/9/2025 16:48:36
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedOff.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134026131511161785
+
+ProcessId: 24160
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:49720
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 721d82dd-0ddf-4966-883b-e9cfa9d25782
+
+Timestamp: 18/9/2025 16:48:36
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedOff.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134026131511161785
+
+ProcessId: 24160
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:18784
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: ada7eb64-805b-47f6-adac-9780f5410114
+
+Timestamp: 18/9/2025 16:48:36
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedOff.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134026131511161785
+
+ProcessId: 24160
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:18784
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 957ab281-bc7d-4906-87ad-80b2b0dde3d8
+
+Timestamp: 18/9/2025 16:48:36
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedOff.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134026131511161785
+
+ProcessId: 24160
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:37288
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 7001f040-7b33-49f5-bca4-018282590ef7
+
+Timestamp: 18/9/2025 16:48:36
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedOff.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134026131511161785
+
+ProcessId: 24160
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:50948
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 642fbbcb-0e6f-45ae-abfc-e422c654c09e
+
+Timestamp: 18/9/2025 16:48:36
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedOff.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134026131511161785
+
+ProcessId: 24160
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:48348
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: e9fde2cb-ad6c-4900-baac-b72222dba15a
+
+Timestamp: 18/9/2025 16:48:36
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedOff.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134026131511161785
+
+ProcessId: 24160
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:40332
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 1034563d-a061-4371-a435-42272397e44a
+
+Timestamp: 18/9/2025 16:48:36
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedOff.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134026131511161785
+
+ProcessId: 24160
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:37672
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 7d84470a-bf45-4cff-9fd2-6ffb3d07075b
+
+Timestamp: 18/9/2025 16:48:36
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedOff.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134026131511161785
+
+ProcessId: 24160
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:46116
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 8d2a891b-ae2d-4e9a-81b8-ff67d5af096b
+
+Timestamp: 18/9/2025 16:48:36
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedOff.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134026131511161785
+
+ProcessId: 24160
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:46116
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 8a08ff99-a5df-4e3d-8d12-7baafd0cbe04
+
+Timestamp: 18/9/2025 16:48:36
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedOff.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134026131511161785
+
+ProcessId: 24160
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:37672
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: f7962440-01d4-4136-8a9a-63afc36101ea
+
+Timestamp: 18/9/2025 16:48:36
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedOff.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134026131511161785
+
+ProcessId: 24160
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:24260
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 39d706be-391f-48e2-b04b-6c32e3c35f75
+
+Timestamp: 18/9/2025 16:48:36
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedOff.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134026131511161785
+
+ProcessId: 24160
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:24260
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 1f0f0605-004e-4231-8476-f861181007cf
+
+Timestamp: 18/9/2025 16:48:36
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedOff.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134026131511161785
+
+ProcessId: 24160
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:13300
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: d01f9a1e-05b0-43b6-a9a3-41c31c8806b1
+
+Timestamp: 18/9/2025 16:48:36
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedOff.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134026131511161785
+
+ProcessId: 24160
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:32684
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 0fcf90d8-566b-4154-8c8b-81eb2f1ddd44
+
+Timestamp: 18/9/2025 16:48:36
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedOff.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134026131511161785
+
+ProcessId: 24160
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:49720
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 4f6ff1fe-523f-450a-be4b-2f7e5cad1fcc
+
+Timestamp: 18/9/2025 16:48:36
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedOff.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134026131511161785
+
+ProcessId: 24160
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:40472
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 6a86f4b1-f3ca-4a3a-b0d5-abd6b135b4b1
+
+Timestamp: 18/9/2025 16:48:36
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedOff.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134026131511161785
+
+ProcessId: 24160
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:40332
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: cf6d9d74-ece0-4441-939f-ef720fc1cc29
+
+Timestamp: 18/9/2025 16:48:36
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedOff.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134026131511161785
+
+ProcessId: 24160
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:46116
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 2d3740dd-f050-4139-86a7-a942879b5f14
+
+Timestamp: 18/9/2025 16:48:36
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedOff.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134026131511161785
+
+ProcessId: 24160
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:37672
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 9a83ddab-4de0-4c14-bc16-a4131f1656e1
+
+Timestamp: 18/9/2025 16:48:36
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedOff.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134026131511161785
+
+ProcessId: 24160
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:40472
+
+Extended Properties: 
+----------------------------------------

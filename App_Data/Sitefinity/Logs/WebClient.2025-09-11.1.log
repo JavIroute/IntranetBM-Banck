@@ -1,0 +1,84 @@
+----------------------------------------
+ActivityId: 301783ae-e4ed-43ef-84b8-bdfdea7cb52d
+
+Timestamp: 9/10/2025 2:45:52 PM
+
+Message: ‹‹‹"undefined" is not valid JSON
+SyntaxError: "undefined" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at Object.next (https://localhost:5001/adminapp/main.449ba47e63d4ef5e.js:2:2448827)
+    at g.next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:392685)
+    at m._next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:392369)
+    at m.next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:392056)
+    at https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:816513
+    at o._next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:398759)
+    at o.next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:392056)
+    at https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:815247
+    at o._next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:398759)›››
+
+Category: WebClientLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134019593865628994
+
+ProcessId: 32220
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:34292
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 4876fb89-2fca-440d-8eec-b405fc66b002
+
+Timestamp: 9/10/2025 4:18:24 PM
+
+Message: ‹‹‹"undefined" is not valid JSON
+SyntaxError: "undefined" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at Object.next (https://localhost:5001/adminapp/main.449ba47e63d4ef5e.js:2:2448827)
+    at g.next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:392685)
+    at m._next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:392369)
+    at m.next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:392056)
+    at https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:816513
+    at o._next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:398759)
+    at o.next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:392056)
+    at https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:815247
+    at o._next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:398759)›››
+
+Category: WebClientLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134019593865628994
+
+ProcessId: 32220
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:20320
+
+Extended Properties: 
+----------------------------------------

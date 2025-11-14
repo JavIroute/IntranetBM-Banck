@@ -1,0 +1,19 @@
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 18/9/2025 16:11:10
+
+Message: ‹‹‹Notification service: Failed to send notification message for Account: , Module: Workflow, with messageJobId: '300d3145-b1c2-4671-9bfe-8d9681a3e1b8' Error: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.InvalidOperationException: SmtpHost property set through configuration of notifications service module cannot be an empty string.
+   at Telerik.Sitefinity.Services.Notifications.Smtp.SmtpSender.VerifySmtpSettings(SmtpSenderProfileElement senderProfile)
+   at Telerik.Sitefinity.Services.Notifications.Smtp.SmtpSender..ctor(SmtpSenderProfileElement senderProfile)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes, StackCrawlMark& stackMark)
+   at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at System.Activator.CreateInstance(Type type, Object[] args)
+   at Telerik.Sitefinity.Services.Notifications.Sender.GetSender(String profileType, String profileName)
+   at Telerik.Sitefinity.Services.Notifications.BackgroundTasks.SendNotificationTask.RunInternal(IBackgroundTaskContext context)›››
+
+
+----------------------------------------

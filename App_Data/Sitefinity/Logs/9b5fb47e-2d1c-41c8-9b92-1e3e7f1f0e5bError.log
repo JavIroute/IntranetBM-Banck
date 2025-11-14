@@ -1,0 +1,59 @@
+----------------------------------------
+ActivityId: 04c28d87-2a98-4bce-85cd-827a47bf680d
+
+Timestamp: 1/9/2025 22:09:52
+
+Message: ‹‹‹Timestamp: 1/9/2025 22:09:52
+Message: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Reflection.RuntimeAssembly.GetResource(RuntimeAssembly assembly, String resourceName, UInt64& length, StackCrawlMarkHandle stackMark, Boolean skipSecurityCheck)
+   at System.Reflection.RuntimeAssembly.GetManifestResourceStream(String name, StackCrawlMark& stackMark, Boolean skipSecurityCheck)
+   at System.Reflection.RuntimeAssembly.GetManifestResourceStream(String name)
+   at Telerik.Sitefinity.Web.UI.ControlUtilities.GetTextResource(String fileName, Type assemblyInfo)
+   at Telerik.Sitefinity.Licensing.LicenseState.GetLicenseStateFromString(String licenseXml, Boolean validateLicense)
+   at Telerik.Sitefinity.Licensing.LicenseState.BuildCurrentLicense()
+   at Telerik.Sitefinity.Utilities.ConcurrentProperty`1.get_Value()
+   at Telerik.Sitefinity.Licensing.LicenseState.CheckIsModuleLicensedInAnyDomain(String moduleId)
+   at Telerik.Sitefinity.Multisite.MultisiteContext..ctor()
+   at Telerik.Sitefinity.Multisite.MultisiteModule.Initialize(ModuleSettings settings)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+   at Telerik.Sitefinity.Services.SystemManager.Initialize()
+   at Telerik.Sitefinity.Abstractions.Bootstrapper.RegisterRoutes()
+   at Telerik.Sitefinity.Abstractions.Bootstrapper.Bootstrap()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+Category: 
+Priority: -1
+EventId: 0
+Severity: Critical
+Title:
+Machine: PCIR-DESARR04
+App Domain: /LM/W3SVC/2/ROOT-2-134012381824407312
+ProcessId: 12300
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+Thread Name: 
+Win32 ThreadId:26852
+Extended Properties: ›››
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-2-134012381824407312
+
+ProcessId: 12300
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:26852
+
+Extended Properties: 
+----------------------------------------

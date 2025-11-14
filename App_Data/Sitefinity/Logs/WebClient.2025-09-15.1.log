@@ -1,0 +1,42 @@
+----------------------------------------
+ActivityId: 60ea1af5-3d60-4cc4-93db-b469715e776d
+
+Timestamp: 9/11/2025 4:40:58 PM
+
+Message: ‹‹‹"undefined" is not valid JSON
+SyntaxError: "undefined" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at Object.next (https://localhost:5001/adminapp/main.449ba47e63d4ef5e.js:2:2448827)
+    at g.next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:392685)
+    at m._next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:392369)
+    at m.next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:392056)
+    at https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:816513
+    at o._next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:398759)
+    at o.next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:392056)
+    at https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:815247
+    at o._next (https://localhost:5001/adminapp/vendor.bd1cd64e7e803345.js:2:398759)›››
+
+Category: WebClientLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134020749051831527
+
+ProcessId: 44600
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:19036
+
+Extended Properties: 
+----------------------------------------

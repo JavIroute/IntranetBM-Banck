@@ -1,0 +1,488 @@
+----------------------------------------
+ActivityId: 6cbbaa0b-69a7-4880-beec-406ca3ce4302
+
+Timestamp: 26/8/2025 19:28:10
+
+Message: ‹‹‹Attempting application domain unload. Reason: 'Login failed for user 'sa'. ---> Login failed for user 'sa'. ---> Login failed for user 'sa'.'. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 6cbbaa0b-69a7-4880-beec-406ca3ce4302
+
+Timestamp: 26/8/2025 19:28:10
+
+Message: ‹‹‹Application domain unload succeeded. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 6472a072-2ec6-4f03-9b92-b1fccec4ca3c
+
+Timestamp: 26/8/2025 19:30:05
+
+Message: ‹‹‹Attempting application domain unload. Reason: 'Login failed for user 'sa'. ---> Login failed for user 'sa'. ---> Login failed for user 'sa'.'. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 6472a072-2ec6-4f03-9b92-b1fccec4ca3c
+
+Timestamp: 26/8/2025 19:30:05
+
+Message: ‹‹‹Application domain unload succeeded. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: b7b7b9d3-5390-4b84-b3da-b49b9ae6154f
+
+Timestamp: 26/8/2025 19:30:30
+
+Message: ‹‹‹Attempting application domain unload. Reason: 'Login failed for user 'sa'. ---> Login failed for user 'sa'. ---> Login failed for user 'sa'.'. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: b7b7b9d3-5390-4b84-b3da-b49b9ae6154f
+
+Timestamp: 26/8/2025 19:30:30
+
+Message: ‹‹‹Application domain unload succeeded. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 7037053a-0d80-4fdc-ab37-ad4722cb1624
+
+Timestamp: 26/8/2025 19:32:52
+
+Message: ‹‹‹Attempting application domain unload. Reason: 'Login failed for user 'sa'. ---> Login failed for user 'sa'. ---> Login failed for user 'sa'.'. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 7037053a-0d80-4fdc-ab37-ad4722cb1624
+
+Timestamp: 26/8/2025 19:32:52
+
+Message: ‹‹‹Application domain unload succeeded. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: ed26a72b-93dc-49a8-a3fe-166d98aaeadd
+
+Timestamp: 26/8/2025 19:35:16
+
+Message: ‹‹‹Attempting application domain unload. Reason: 'Login failed for user 'sa'. ---> Login failed for user 'sa'. ---> Login failed for user 'sa'.'. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: ed26a72b-93dc-49a8-a3fe-166d98aaeadd
+
+Timestamp: 26/8/2025 19:35:16
+
+Message: ‹‹‹Application domain unload succeeded. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: a8e971b4-a615-4914-a950-45efe00ab3e6
+
+Timestamp: 26/8/2025 19:42:06
+
+Message: ‹‹‹Attempting application domain unload. Reason: 'Login failed for user 'sa'. ---> Login failed for user 'sa'. ---> Login failed for user 'sa'.'. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: a8e971b4-a615-4914-a950-45efe00ab3e6
+
+Timestamp: 26/8/2025 19:42:06
+
+Message: ‹‹‹Application domain unload succeeded. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: ac5b6df0-aeeb-40bd-afcb-9d8da4d92c81
+
+Timestamp: 26/8/2025 19:44:32
+
+Message: ‹‹‹Attempting application domain unload. Reason: 'Login failed for user 'sa'. ---> Login failed for user 'sa'. ---> Login failed for user 'sa'.'. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: ac5b6df0-aeeb-40bd-afcb-9d8da4d92c81
+
+Timestamp: 26/8/2025 19:44:32
+
+Message: ‹‹‹Application domain unload succeeded. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 9714bf18-417f-4bc5-9304-802cb56810f3
+
+Timestamp: 26/8/2025 19:45:23
+
+Message: ‹‹‹Attempting application domain unload. Reason: 'Login failed for user 'sa'. ---> Login failed for user 'sa'. ---> Login failed for user 'sa'.'. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 9714bf18-417f-4bc5-9304-802cb56810f3
+
+Timestamp: 26/8/2025 19:45:23
+
+Message: ‹‹‹Application domain unload succeeded. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 8a476f7a-26eb-49c3-a5db-177becd6053f
+
+Timestamp: 26/8/2025 19:45:46
+
+Message: ‹‹‹Attempting application domain unload. Reason: 'Login failed for user 'sa'. ---> Login failed for user 'sa'. ---> Login failed for user 'sa'.'. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 8a476f7a-26eb-49c3-a5db-177becd6053f
+
+Timestamp: 26/8/2025 19:45:46
+
+Message: ‹‹‹Application domain unload succeeded. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: ea8fb31b-0fa9-4692-9b17-a5805988a2ca
+
+Timestamp: 26/8/2025 19:47:26
+
+Message: ‹‹‹Attempting application domain unload. Reason: 'Login failed for user 'sa'. ---> Login failed for user 'sa'. ---> Login failed for user 'sa'.'. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: ea8fb31b-0fa9-4692-9b17-a5805988a2ca
+
+Timestamp: 26/8/2025 19:47:26
+
+Message: ‹‹‹Application domain unload succeeded. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 26/08/2025 19:57:05
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Services.Notifications.Scheduling.NotificationsCleanupTask'. Start time: 26/08/2025 19:57:05. End time: 26/08/2025 19:57:05. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 26/08/2025 19:57:05
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Versioning.Cleaner.VersioningCleanerTask'. Start time: 26/08/2025 19:57:05. End time: 26/08/2025 19:57:05. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 26/08/2025 19:57:05
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.ServiceHooks.Scheduling.ServiceHooksActivitiesCleanupTask'. Start time: 26/08/2025 19:57:05. End time: 26/08/2025 19:57:05. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 26/08/2025 19:57:05
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.ExternalNotifications.ExternalNotificationsRetrieverTask'. Start time: 26/08/2025 19:57:05. End time: 26/08/2025 19:57:05. Task data: '{}'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 26/08/2025 19:57:06
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Authentication.Data.TransientDataCleanupTask'. Start time: 26/08/2025 19:57:05. End time: 26/08/2025 19:57:06. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 8/26/2025 7:57:09 PM
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Lifecycle.Cleanup.TempItemsCleanupTask'. Start time: 8/26/2025 7:57:05 PM. End time: 8/26/2025 7:57:09 PM. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 26/08/2025 19:57:18
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.UsageTracking.Scheduling.UsageTrackingTask'. Start time: 26/08/2025 19:57:05. End time: 26/08/2025 19:57:18. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 27/08/2025 16:14:40
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Services.Notifications.Scheduling.NotificationsCleanupTask'. Start time: 27/08/2025 16:14:40. End time: 27/08/2025 16:14:40. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 27/08/2025 16:14:40
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.ServiceHooks.Scheduling.ServiceHooksActivitiesCleanupTask'. Start time: 27/08/2025 16:14:40. End time: 27/08/2025 16:14:40. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 27/08/2025 16:14:40
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Authentication.Data.TransientDataCleanupTask'. Start time: 27/08/2025 16:14:40. End time: 27/08/2025 16:14:40. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 27/08/2025 16:14:40
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Versioning.Cleaner.VersioningCleanerTask'. Start time: 27/08/2025 16:14:40. End time: 27/08/2025 16:14:40. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 27/08/2025 16:14:40
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.ExternalNotifications.ExternalNotificationsRetrieverTask'. Start time: 27/08/2025 16:14:40. End time: 27/08/2025 16:14:40. Task data: '{}'›››
+
+
+----------------------------------------

@@ -1,0 +1,50 @@
+----------------------------------------
+ActivityId: 42f0d4d6-1bd7-422a-9208-e1ac3e62dfcb
+
+Timestamp: 9/17/2025 9:44:15 PM
+
+Message: ‹‹‹Db Migration Complexity: Extending›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 42f0d4d6-1bd7-422a-9208-e1ac3e62dfcb
+
+Timestamp: 9/17/2025 9:44:15 PM
+
+Message: ‹‹‹Adding a foreign key constraint(s) to an existing table(s).›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 42f0d4d6-1bd7-422a-9208-e1ac3e62dfcb
+
+Timestamp: 9/17/2025 9:44:15 PM
+
+Message: ‹‹‹Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 42f0d4d6-1bd7-422a-9208-e1ac3e62dfcb
+
+Timestamp: 9/17/2025 9:44:15 PM
+
+Message: ‹‹‹Adding a new table(s).›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 42f0d4d6-1bd7-422a-9208-e1ac3e62dfcb
+
+Timestamp: 9/17/2025 9:44:15 PM
+
+Message: ‹‹‹-- Telerik.Sitefinity.DynamicTypes.Model.Prueba.prueba
+CREATE TABLE [prueba_prueba] (
+    [base_id] uniqueidentifier NOT NULL,
+    [Title] NVARCHAR(255) NULL,             -- prueba.Title
+    CONSTRAINT [pk_prueba_prueba] PRIMARY KEY ([base_id])
+)›››
+
+
+----------------------------------------

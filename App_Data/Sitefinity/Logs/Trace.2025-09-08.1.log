@@ -1,0 +1,83 @@
+----------------------------------------
+ActivityId: b117a5e1-b508-472f-811f-d3c2cecd96b5
+
+Timestamp: 5/9/2025 14:46:54
+
+Message: ‹‹‹Attempting application domain unload. Reason: 'Thread was being aborted.'. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: b117a5e1-b508-472f-811f-d3c2cecd96b5
+
+Timestamp: 5/9/2025 14:46:54
+
+Message: ‹‹‹Application domain unload succeeded. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 05/09/2025 14:47:37
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Services.Notifications.Scheduling.NotificationsCleanupTask'. Start time: 05/09/2025 14:47:36. End time: 05/09/2025 14:47:37. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 05/09/2025 14:47:37
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.ServiceHooks.Scheduling.ServiceHooksActivitiesCleanupTask'. Start time: 05/09/2025 14:47:37. End time: 05/09/2025 14:47:37. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 05/09/2025 14:47:37
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Versioning.Cleaner.VersioningCleanerTask'. Start time: 05/09/2025 14:47:36. End time: 05/09/2025 14:47:37. Task data: ''›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 05/09/2025 14:47:37
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.ExternalNotifications.ExternalNotificationsRetrieverTask'. Start time: 05/09/2025 14:47:37. End time: 05/09/2025 14:47:37. Task data: '{}'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 05/09/2025 14:47:38
+
+Message: ‹‹‹Scheduler: Task executed: 'Telerik.Sitefinity.Authentication.Data.TransientDataCleanupTask'. Start time: 05/09/2025 14:47:37. End time: 05/09/2025 14:47:38. Task data: ''›››
+
+
+----------------------------------------

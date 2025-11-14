@@ -1,0 +1,372 @@
+----------------------------------------
+ActivityId: 76afc880-532d-4eed-95e4-d51ca0c766e7
+
+Timestamp: 8/26/2025 8:12:41 PM
+
+Message: ‹‹‹The user with email/name 'walter.villamar@iroute.com.ec' from provider 'Default' failed authnetication in Sitefinity after successful verification of the password with reason: UserAlreadyLoggedIn›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134007117754883155
+
+ProcessId: 21908
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:22072
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: b405a2d3-f36f-49f5-b2c6-cacaccf45542
+
+Timestamp: 26/08/2025 20:13:02
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedFromDifferentComputer.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134007117754883155
+
+ProcessId: 21908
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8876
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 094d5ff1-8efc-4e9c-bac6-589f746467a7
+
+Timestamp: 26/08/2025 20:16:18
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedFromDifferentComputer.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134007117754883155
+
+ProcessId: 21908
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:14572
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: e591e2b0-4541-4846-8d05-b1d8d122386d
+
+Timestamp: 26/08/2025 21:58:56
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedFromDifferentComputer.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134007191090141974
+
+ProcessId: 6620
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3504
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 11ee7033-8ebf-491a-8c58-0be229d13ade
+
+Timestamp: 26/08/2025 21:58:57
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedFromDifferentComputer.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134007191090141974
+
+ProcessId: 6620
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3504
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: b4478e3f-f335-4e3f-bc1b-474bf03564d7
+
+Timestamp: 26/08/2025 21:58:57
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedFromDifferentComputer.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134007191090141974
+
+ProcessId: 6620
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:6068
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 9927f84e-d1ea-4568-b9ce-8a4f419174e3
+
+Timestamp: 26/08/2025 21:58:58
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedFromDifferentComputer.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134007191090141974
+
+ProcessId: 6620
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:15708
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 0d5d96fe-89a1-4223-a24f-b523baa0eddd
+
+Timestamp: 26/08/2025 21:58:58
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedFromDifferentComputer.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134007191090141974
+
+ProcessId: 6620
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:19584
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: e53a7d99-d546-48a6-a4a3-814a258681c3
+
+Timestamp: 8/26/2025 10:08:06 PM
+
+Message: ‹‹‹The user with email/name 'walter.villamar@iroute.com.ec' from provider 'Default' failed authnetication in Sitefinity after successful verification of the password with reason: UserAlreadyLoggedIn›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134007191090141974
+
+ProcessId: 6620
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:26416
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 651e4052-4fe1-43be-b499-b718b20ede8c
+
+Timestamp: 26/8/2025 22:08:27
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedFromDifferentComputer.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134007191090141974
+
+ProcessId: 6620
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:21972
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 28bb4b0e-cb68-4818-b337-2f8806cedfc5
+
+Timestamp: 26/8/2025 22:08:33
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedFromDifferentComputer.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134007191090141974
+
+ProcessId: 6620
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:2236
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 468fc5b6-3b6f-4234-bbd9-379c86645b44
+
+Timestamp: 8/26/2025 10:14:13 PM
+
+Message: ‹‹‹The user with email/name 'walter.villamar@iroute.com.ec' from provider 'Default' failed authnetication in Sitefinity after successful verification of the password with reason: UserAlreadyLoggedIn›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134007191090141974
+
+ProcessId: 6620
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:2864
+
+Extended Properties: 
+----------------------------------------

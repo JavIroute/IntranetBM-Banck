@@ -1,0 +1,42 @@
+----------------------------------------
+ActivityId: 9fe356e4-d5df-4aba-b142-f1f71aefec0f
+
+Timestamp: 9/19/2025 4:06:35 PM
+
+Message: ‹‹‹Cannot read properties of null (reading 'ItemIdsOrdered')
+TypeError: Cannot read properties of null (reading 'ItemIdsOrdered')
+    at Object.next (http://localhost:3000/adminapp/main.449ba47e63d4ef5e.js:2:5878284)
+    at g.next (http://localhost:3000/adminapp/vendor.bd1cd64e7e803345.js:2:392685)
+    at m._next (http://localhost:3000/adminapp/vendor.bd1cd64e7e803345.js:2:392369)
+    at m.next (http://localhost:3000/adminapp/vendor.bd1cd64e7e803345.js:2:392056)
+    at http://localhost:3000/adminapp/vendor.bd1cd64e7e803345.js:2:814108
+    at o._next (http://localhost:3000/adminapp/vendor.bd1cd64e7e803345.js:2:398759)
+    at o.next (http://localhost:3000/adminapp/vendor.bd1cd64e7e803345.js:2:392056)
+    at http://localhost:3000/adminapp/vendor.bd1cd64e7e803345.js:2:398128
+    at o._next (http://localhost:3000/adminapp/vendor.bd1cd64e7e803345.js:2:398759)
+    at o.next (http://localhost:3000/adminapp/vendor.bd1cd64e7e803345.js:2:392056)›››
+
+Category: WebClientLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134027699930563293
+
+ProcessId: 10956
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:4696
+
+Extended Properties: 
+----------------------------------------

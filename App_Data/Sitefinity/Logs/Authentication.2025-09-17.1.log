@@ -1,0 +1,3503 @@
+----------------------------------------
+ActivityId: 0a048104-db7f-4c6c-b477-f52062dc9773
+
+Timestamp: 9/15/2025 4:23:32 PM
+
+Message: ‹‹‹The user with email/name 'walter.villamar@iroute.com.ec' from provider 'Default' failed authnetication in Sitefinity after successful verification of the password with reason: UserAlreadyLoggedIn›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024189350064810
+
+ProcessId: 43980
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:33136
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: d3bfb605-f47b-47f6-9e8e-d00d2c76233e
+
+Timestamp: 15/09/2025 16:23:53
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedFromDifferentComputer.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024189350064810
+
+ProcessId: 43980
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:28384
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: ab9693ea-6fe3-4920-9707-dd909d66cec0
+
+Timestamp: 15/09/2025 16:23:57
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason UserLoggedFromDifferentComputer.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024189350064810
+
+ProcessId: 43980
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:48888
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: cf6ce8c3-ee72-4957-a06b-ae0a26f53689
+
+Timestamp: 15/09/2025 20:59:52
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:23164
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 570c05b3-19ff-4535-b04f-5a9cc6acdc97
+
+Timestamp: 15/09/2025 20:59:52
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:27260
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 0a896972-8288-408c-a60f-aa791802c4eb
+
+Timestamp: 15/09/2025 20:59:53
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:23164
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 131c8cef-1b6f-43b9-b6e2-92bdcef1f257
+
+Timestamp: 15/09/2025 20:59:53
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:27260
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: d89ce6ca-0e14-4f78-b40e-79388b598961
+
+Timestamp: 15/09/2025 20:59:54
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:41868
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: f99f55f5-b472-41ae-a3d6-205fb3eed075
+
+Timestamp: 15/9/2025 20:59:54
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10528
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: ee379561-ea89-4ef4-ba7b-319c0d3ceb1e
+
+Timestamp: 15/9/2025 20:59:54
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:21212
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 7aab2842-ce31-4cbc-9171-6fdbdc0817bd
+
+Timestamp: 9/15/2025 8:59:54 PM
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:21212
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: c8cd232c-1960-4d11-a538-9823da369bf9
+
+Timestamp: 9/15/2025 8:59:54 PM
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10528
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: ade249f3-db25-47d5-a19d-959f1e37fe7c
+
+Timestamp: 15/09/2025 20:59:55
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:15312
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: f29558a7-2513-4207-9ffc-f3f969f9da8a
+
+Timestamp: 15/09/2025 20:59:55
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:12756
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 66cad29b-b224-4e28-8f5c-922c6973192e
+
+Timestamp: 15/09/2025 20:59:55
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:27260
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 881c242a-8919-4d42-8bf1-ccbfe92753fb
+
+Timestamp: 15/09/2025 20:59:58
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:45612
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 9704edd8-0273-4973-909b-b8733c718542
+
+Timestamp: 15/09/2025 20:59:58
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:21844
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: e64a6d22-a586-4c7f-b33a-2b4a2b3764e1
+
+Timestamp: 15/9/2025 21:00:18
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:13228
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: bd0bd70c-bde9-470f-8578-df43a6d2c7fb
+
+Timestamp: 15/9/2025 21:00:18
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:41868
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: ac08db50-39dd-4d69-a98e-56b187020579
+
+Timestamp: 15/9/2025 21:00:19
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:27260
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 64b5cd2a-1176-4264-9d0b-9405e7b4366c
+
+Timestamp: 15/9/2025 21:00:19
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10528
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: f246e9be-fe0f-4edd-b23a-d3c323962df2
+
+Timestamp: 9/15/2025 9:00:19 PM
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:27260
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 05fbd384-05a7-42c6-a9c3-fa707acb48a6
+
+Timestamp: 9/15/2025 9:00:19 PM
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10528
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 9dc02ab8-664d-4210-aac7-d62b582f9616
+
+Timestamp: 15/9/2025 21:00:20
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:21844
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 33fab7ae-7bac-4d91-90e7-1291f4b60b08
+
+Timestamp: 15/9/2025 21:00:20
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:13228
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 1708c36e-4144-4ed1-8456-e23b8ac9065b
+
+Timestamp: 15/9/2025 21:00:20
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:41868
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 7ad371ad-cb9e-4c96-b1be-47cb52f65cdb
+
+Timestamp: 15/9/2025 21:00:20
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:41304
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: aa73056c-6d5c-4fd4-9007-eb9dd80a39f5
+
+Timestamp: 15/9/2025 21:00:20
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:45612
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: f0710a91-0482-4e29-96f9-1442d68ea89d
+
+Timestamp: 15/9/2025 21:00:20
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:23164
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 612e538d-d27c-4d56-94cb-3ae970ec715e
+
+Timestamp: 15/9/2025 21:00:20
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:12756
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 7a3ab29d-deb0-4c14-a37c-35e3f8775976
+
+Timestamp: 15/9/2025 21:00:21
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:13228
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 91c8869e-c2cd-4165-a05e-efda39b4a0c7
+
+Timestamp: 15/9/2025 21:00:21
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:12756
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 7e26ca2c-78a2-48a8-8f8b-203d71df7d7c
+
+Timestamp: 15/9/2025 21:00:21
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:41868
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: b5894c07-049f-4c55-bdaa-2032f043f952
+
+Timestamp: 15/09/2025 21:00:22
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10528
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 03fe93f0-9d54-42f3-8a25-4109ba768128
+
+Timestamp: 15/09/2025 21:00:22
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:41304
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 70ade9fc-1167-4b37-aa6e-f6ba74a7de17
+
+Timestamp: 15/09/2025 21:00:22
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:45612
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 20f089d0-7f16-4558-8ab9-2a82abeb0f6c
+
+Timestamp: 15/09/2025 21:00:22
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:21212
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: ef215bc7-f989-459f-92b2-7a2462edd280
+
+Timestamp: 15/09/2025 21:00:22
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:23164
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 0113be84-5a86-44b4-8a65-961c543cdc9d
+
+Timestamp: 15/09/2025 21:00:22
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:12756
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 75672c4d-8290-482d-8779-24798e6e53f4
+
+Timestamp: 15/09/2025 21:00:22
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:26640
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 4e8e458c-37bb-470a-b797-186ed3fae587
+
+Timestamp: 15/09/2025 21:00:48
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:27260
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 5f27e7f8-48a4-4e16-940a-7970c3c699e7
+
+Timestamp: 15/9/2025 21:00:48
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:13228
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 5b8d5ce1-6e04-4141-917f-42aafada4699
+
+Timestamp: 15/9/2025 21:00:48
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:41868
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: c380751a-9aaa-4f64-b09f-ac1f862d6e73
+
+Timestamp: 15/9/2025 21:00:48
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:41304
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: ce06bcef-780c-4722-91bc-4cce3ae6130f
+
+Timestamp: 15/9/2025 21:00:48
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:26640
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 5b79e831-be01-415f-b14e-175183503a23
+
+Timestamp: 15/9/2025 21:00:48
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10528
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 0c5eafb1-af7a-422e-98d4-2c7b6ff51cb3
+
+Timestamp: 15/9/2025 21:00:48
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:45612
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 16798843-b297-40e3-a4b4-9ff3acb63793
+
+Timestamp: 15/9/2025 21:00:48
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:25476
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 9cda1f97-4b19-4ce7-93bf-aaf640ed1836
+
+Timestamp: 15/9/2025 21:00:49
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:26640
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: b18d0327-4108-4bb1-8801-a64f21c4d244
+
+Timestamp: 15/9/2025 21:00:49
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:12756
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 2dd0d490-b0da-4a72-9e6e-ebe52d2927d2
+
+Timestamp: 15/09/2025 21:00:49
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:41304
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 6c39ced9-8f82-4cdb-8fe1-7e459f774bc3
+
+Timestamp: 15/9/2025 21:00:49
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:27260
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 9b48092a-9780-435c-ba83-6904f462d47f
+
+Timestamp: 15/9/2025 21:00:49
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:23164
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 323cb7ad-60f7-496d-99b3-cc4933b85ee3
+
+Timestamp: 15/9/2025 21:00:49
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:15312
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: d1510407-0001-4c3b-9da7-28d35dc8fac1
+
+Timestamp: 15/09/2025 21:00:59
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:25476
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: b50c2361-0eee-435a-a8cd-911b2c95f5ec
+
+Timestamp: 15/09/2025 21:00:59
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:27260
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 5f265726-9599-4204-a776-f2fbd16d84c2
+
+Timestamp: 15/09/2025 21:00:59
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10528
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: d7b369f0-21ef-4036-b48f-b2c051ec5a78
+
+Timestamp: 15/9/2025 21:02:11
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:4332
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 1f6319db-cedf-4745-ab32-4ce2861e997c
+
+Timestamp: 15/9/2025 21:02:11
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:30832
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 0034c9c2-7264-4b7b-b0e8-3bf33e62b16f
+
+Timestamp: 9/15/2025 9:02:11 PM
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:30832
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 24ce5dd7-6c1f-40f7-b660-184b15d0b7f1
+
+Timestamp: 9/15/2025 9:02:11 PM
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:4332
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 6bc940df-f061-46a8-8b5c-9fc12d23ed13
+
+Timestamp: 15/9/2025 21:02:11
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:716
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: c22ac604-6079-47f7-964e-f498a0e809de
+
+Timestamp: 15/9/2025 21:02:11
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:12756
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 17caa8e5-37ef-45a8-8d35-7b6677d48c76
+
+Timestamp: 15/09/2025 21:02:12
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:35776
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 42c4f0ff-3570-471f-8388-462c0dc249a2
+
+Timestamp: 15/09/2025 21:02:12
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:18636
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 3f43c9d3-458c-4939-a208-169b6cb1d918
+
+Timestamp: 15/09/2025 21:02:13
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:41640
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 4b1ec58a-b329-4155-9e47-f8987ab74704
+
+Timestamp: 15/09/2025 21:02:13
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:48624
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 9f5ba59b-0704-4d57-ab88-852ba03104ef
+
+Timestamp: 15/09/2025 21:02:13
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:716
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: bd9ccb69-9edc-4af7-a849-d601cc9270fe
+
+Timestamp: 15/09/2025 21:02:13
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:23164
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 3dae1abe-0318-4726-976a-5c15a3fc03c6
+
+Timestamp: 15/09/2025 21:02:22
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:10544
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 9ed6080a-fbe8-4eda-990f-fa6d7737a11c
+
+Timestamp: 16/09/2025 2:36:50
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:34960
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 8fc25f18-4186-4d7b-817b-24a294b4fe1b
+
+Timestamp: 16/09/2025 2:36:51
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:28008
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 401ded98-4572-46cb-bf35-e49e51f02ff4
+
+Timestamp: 16/09/2025 2:36:57
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:47944
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 9fc9b2c0-a2ec-4f5b-acde-108d9f1e7589
+
+Timestamp: 16/09/2025 2:36:57
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:34960
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: ea66c5e4-1f6a-4426-9c06-4863a795ea40
+
+Timestamp: 16/09/2025 2:36:57
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:37792
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 958e37ec-ee76-46a3-9faf-892596a81c2d
+
+Timestamp: 16/09/2025 2:36:57
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:24232
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: dad54c48-ec3c-4dc0-ae48-10d9c7776dbd
+
+Timestamp: 16/9/2025 2:39:40
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:38524
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: f45b309a-c8dc-40dc-8f49-be5f0e11c264
+
+Timestamp: 16/9/2025 2:39:40
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:28008
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: a3f05349-142c-4622-9dec-eb2abe4c109d
+
+Timestamp: 9/16/2025 2:39:41 AM
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:38524
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 441b27fe-9a28-4b13-a795-a9554bf94579
+
+Timestamp: 9/16/2025 2:39:41 AM
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:28008
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 6d2bb9e6-1845-456d-9522-66ee3d017b27
+
+Timestamp: 16/9/2025 2:39:41
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:47944
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 21582607-4424-4def-8efd-d5c7115964b5
+
+Timestamp: 16/9/2025 2:39:41
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:31692
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 345cbe73-5d1c-49cd-9bef-d7a7c76b0660
+
+Timestamp: 16/09/2025 2:39:42
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:26560
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 8adb1b20-a9bc-4ffa-91fa-aaf26c600328
+
+Timestamp: 16/09/2025 2:39:43
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:14584
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 8a10852b-7d18-4ba7-93dc-25474c387499
+
+Timestamp: 16/09/2025 2:39:43
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:26616
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 8f4e703d-2906-41e0-b1a9-c6683e5cfc49
+
+Timestamp: 16/09/2025 2:39:43
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:48236
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 5f22ab6c-6902-4554-8894-444c6122e87c
+
+Timestamp: 16/09/2025 2:39:43
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:38524
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 88d5d6b1-92a4-4a22-b881-65331c38a6cb
+
+Timestamp: 16/09/2025 2:39:43
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:37792
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 23a8be18-01af-42c1-b66e-58a14ab5b581
+
+Timestamp: 16/9/2025 2:39:56
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:28008
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 7d99e4dc-9d87-45fa-9935-6cce18fa451a
+
+Timestamp: 16/9/2025 2:39:56
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:24232
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: d9a0d236-6726-449a-a41b-726827c0e6e6
+
+Timestamp: 9/16/2025 2:39:56 AM
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:24232
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: e5c14fc1-0694-450a-9fd3-199fa2442a76
+
+Timestamp: 9/16/2025 2:39:56 AM
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:28008
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 7465b2f2-f8f4-4822-955f-753fab8bdf36
+
+Timestamp: 16/9/2025 2:39:57
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:35660
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 46e7975b-e4de-4256-877a-7f7643ea8b69
+
+Timestamp: 16/09/2025 2:39:58
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:40748
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 9145b60d-cd59-4009-8823-d8b3077ff372
+
+Timestamp: 16/09/2025 2:39:58
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:37144
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 09784e5c-7262-4a93-871b-83182c3a1a8d
+
+Timestamp: 16/09/2025 2:39:58
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:35660
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 88d53964-2bc1-40f6-8647-6324264e3860
+
+Timestamp: 16/09/2025 2:39:58
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:14584
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: d38801f9-7612-4c4c-b6f4-478a0623055f
+
+Timestamp: 16/09/2025 2:39:58
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:38404
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 7fe3d974-c0b9-461c-96a1-82fbfa94685c
+
+Timestamp: 16/09/2025 2:39:58
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:29292
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: ce917e23-05c8-4b74-b011-08a6f3183461
+
+Timestamp: 16/09/2025 2:39:58
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:26560
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: b76892b9-e9d1-4ff5-88be-1b93a5b4f6c2
+
+Timestamp: 16/09/2025 2:39:58
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:28008
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 1c530498-1eb3-4006-a688-79729de7edef
+
+Timestamp: 16/09/2025 2:39:58
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:26616
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: aa33e90b-6666-4332-9291-921362c65d40
+
+Timestamp: 16/09/2025 2:39:58
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024435345692724
+
+ProcessId: 18188
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:26216
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: a3129ee2-eadb-43f6-a942-47265241c98f
+
+Timestamp: 16/09/2025 3:41:41
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024676756242267
+
+ProcessId: 26540
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:26236
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: cfe8ee46-eabd-44b6-89e6-051e773e60b3
+
+Timestamp: 16/09/2025 3:41:42
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024676756242267
+
+ProcessId: 26540
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:26236
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: bf34c339-21dd-499d-8ae6-fd12d3af1810
+
+Timestamp: 16/9/2025 3:41:43
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024676756242267
+
+ProcessId: 26540
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9544
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 72771f9d-4fdf-4f78-8bc4-77c02bdfed61
+
+Timestamp: 16/9/2025 3:41:43
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024676756242267
+
+ProcessId: 26540
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:19612
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 8a7c5b8e-23c3-4911-8468-0f50aa316813
+
+Timestamp: 9/16/2025 3:41:43 AM
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024676756242267
+
+ProcessId: 26540
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:19612
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 0c046352-523c-4cd1-9045-ccb4be522687
+
+Timestamp: 9/16/2025 3:41:43 AM
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024676756242267
+
+ProcessId: 26540
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9544
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 83e145d8-1b0c-42c0-809c-e48c5d244a31
+
+Timestamp: 16/09/2025 3:42:07
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024676756242267
+
+ProcessId: 26540
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:21712
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 1c92bade-761c-4112-b35a-4c422a4bf160
+
+Timestamp: 16/09/2025 3:42:07
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024676756242267
+
+ProcessId: 26540
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:33684
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 7e85b625-065a-446f-9a71-8981c1a7968e
+
+Timestamp: 16/09/2025 3:42:09
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024676756242267
+
+ProcessId: 26540
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:4036
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: e874a9c0-f19f-4d9c-b73b-8533b4d4c408
+
+Timestamp: 16/09/2025 3:42:09
+
+Message: ‹‹‹Validating user limitations after successfully authenticated request failed with reason SessionExpired.›››
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134024676756242267
+
+ProcessId: 26540
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9544
+
+Extended Properties: 
+----------------------------------------

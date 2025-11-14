@@ -1,0 +1,1525 @@
+----------------------------------------
+ActivityId: a51b85ac-bd8d-44b8-a808-01d022ef57b4
+
+Timestamp: 9/24/2025 4:19:55 PM
+
+Message: HandlingInstanceID: cdcf7f53-27c9-4e42-80bd-03144c41103d
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/24/2025 11:19:55
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Cannot redirect after HTTP headers have been sent.›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Redirect(System.String, Boolean, Boolean)›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponseWrapper.Redirect(String url)
+   at Telerik.Sitefinity.Web.CustomErrorPages.ErrorPagesHandler.ProcessRequest()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.Context_EndRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/24/2025 4:19:55 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134032042940217160
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/areas/juridico
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134032042940217160
+
+ProcessId: 54492
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:56568
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 3a88836a-0c1c-4415-8953-76d9004b2f6c
+
+Timestamp: 9/24/2025 7:27:49 PM
+
+Message: HandlingInstanceID: 81b67f24-28f7-4e48-830d-90d21b8ed625
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/24/2025 14:27:49
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Cannot redirect after HTTP headers have been sent.›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Redirect(System.String, Boolean, Boolean)›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponseWrapper.Redirect(String url)
+   at Telerik.Sitefinity.Web.CustomErrorPages.ErrorPagesHandler.ProcessRequest()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.Context_EndRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/24/2025 7:27:49 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134032156391797153
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/errores/404?initialRequestUrl=http%3a%2f%2flocalhost%2fappstatus%3fcount%3d1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134032156391797153
+
+ProcessId: 55328
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:57828
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 532cec90-269a-4cc8-8fe1-e7feaf0a6032
+
+Timestamp: 9/24/2025 7:30:51 PM
+
+Message: HandlingInstanceID: f940d3f6-8d31-4842-ad6e-3da8017ffe11
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/24/2025 14:30:51
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Cannot redirect after HTTP headers have been sent.›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Redirect(System.String, Boolean, Boolean)›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponseWrapper.Redirect(String url)
+   at Telerik.Sitefinity.Web.CustomErrorPages.ErrorPagesHandler.ProcessRequest()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.Context_EndRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/24/2025 7:30:51 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134032156391797153
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/errores/404?initialRequestUrl=http%3a%2f%2flocalhost%2ffavicon.ico
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134032156391797153
+
+ProcessId: 55328
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:54952
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 9100b67f-e347-420c-ba87-fdf7a4dc9596
+
+Timestamp: 9/24/2025 7:33:08 PM
+
+Message: HandlingInstanceID: 7d83fb53-0972-4263-93ff-ef53d636b973
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/24/2025 14:33:08
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Cannot redirect after HTTP headers have been sent.›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Redirect(System.String, Boolean, Boolean)›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponseWrapper.Redirect(String url)
+   at Telerik.Sitefinity.Web.CustomErrorPages.ErrorPagesHandler.ProcessRequest()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.Context_EndRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/24/2025 7:33:08 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134032156391797153
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/errores/404?initialRequestUrl=http%3a%2f%2flocalhost%2fControllers%2fLDAPUserRest%2fLDAPUserRestService.svc%2fprofile-rol%2fwalter.villamar%40iroute.com.ec
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134032156391797153
+
+ProcessId: 55328
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:61476
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 7942acf3-ba05-46ec-bed4-b523558ca235
+
+Timestamp: 9/24/2025 8:07:15 PM
+
+Message: HandlingInstanceID: 148bc863-dcd8-4f3e-9439-4e3c55ef2bb7
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/24/2025 15:07:15
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Cannot redirect after HTTP headers have been sent.›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Redirect(System.String, Boolean, Boolean)›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponseWrapper.Redirect(String url)
+   at Telerik.Sitefinity.Web.CustomErrorPages.ErrorPagesHandler.ProcessRequest()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.Context_EndRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/24/2025 8:07:15 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134032156391797153
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/errores/404?initialRequestUrl=http%3a%2f%2flocalhost%2fControllers%2fLDAPUserRest%2fLDAPUserRestService.svc%2fprofile-rol%2fwalter.villamar%40iroute.com.ec
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134032156391797153
+
+ProcessId: 55328
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:60972
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: bae352ec-5270-41f3-83fc-06705c1d488e
+
+Timestamp: 9/24/2025 8:07:15 PM
+
+Message: HandlingInstanceID: ca5293ee-08cc-493a-acf1-9efd323b2497
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/24/2025 15:07:15
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Cannot redirect after HTTP headers have been sent.›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Redirect(System.String, Boolean, Boolean)›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponseWrapper.Redirect(String url)
+   at Telerik.Sitefinity.Web.CustomErrorPages.ErrorPagesHandler.ProcessRequest()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.Context_EndRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/24/2025 8:07:15 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134032156391797153
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/errores/404?initialRequestUrl=http%3a%2f%2flocalhost%2fControllers%2fLDAPUserRest%2fLDAPUserRestService.svc%2fusers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134032156391797153
+
+ProcessId: 55328
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:62396
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 5acf737d-38e7-48dd-8ddd-8994e46a9057
+
+Timestamp: 9/24/2025 8:09:06 PM
+
+Message: HandlingInstanceID: f2ed9e88-0a04-49fc-bcda-bfcec3149b67
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/24/2025 15:09:06
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Cannot redirect after HTTP headers have been sent.›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Redirect(System.String, Boolean, Boolean)›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponseWrapper.Redirect(String url)
+   at Telerik.Sitefinity.Web.CustomErrorPages.ErrorPagesHandler.ProcessRequest()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.Context_EndRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/24/2025 8:09:06 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134032156391797153
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/errores/404?initialRequestUrl=http%3a%2f%2flocalhost%2fControllers%2fLDAPUserRest%2fLDAPUserRestService.svc%2fusers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134032156391797153
+
+ProcessId: 55328
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3776
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 9ade478e-c64d-4f4d-b07a-35a097b80034
+
+Timestamp: 9/24/2025 8:09:06 PM
+
+Message: HandlingInstanceID: 27fdccc3-0708-4b5e-8148-2d83320a1352
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/24/2025 15:09:06
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Cannot redirect after HTTP headers have been sent.›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Redirect(System.String, Boolean, Boolean)›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponseWrapper.Redirect(String url)
+   at Telerik.Sitefinity.Web.CustomErrorPages.ErrorPagesHandler.ProcessRequest()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.Context_EndRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/24/2025 8:09:06 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134032156391797153
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/errores/404?initialRequestUrl=http%3a%2f%2flocalhost%2fControllers%2fLDAPUserRest%2fLDAPUserRestService.svc%2fprofile-rol%2fwalter.villamar%40iroute.com.ec
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134032156391797153
+
+ProcessId: 55328
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:56812
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 2a90819c-1370-4ec5-9dca-b185aaa8e812
+
+Timestamp: 9/24/2025 8:21:41 PM
+
+Message: HandlingInstanceID: 992c996a-88d7-4c4a-9034-0a9aca8c3ad9
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/24/2025 15:21:41
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Cannot redirect after HTTP headers have been sent.›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Redirect(System.String, Boolean, Boolean)›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponseWrapper.Redirect(String url)
+   at Telerik.Sitefinity.Web.CustomErrorPages.ErrorPagesHandler.ProcessRequest()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.Context_EndRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/24/2025 8:21:41 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134032156391797153
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/errores/404?initialRequestUrl=http%3a%2f%2flocalhost%2fControllers%2fLDAPUserRest%2fLDAPUserRestService.svc%2fprofile-rol%2fwalter.villamar%40iroute.com.ec
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134032156391797153
+
+ProcessId: 55328
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:53304
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 4116ed27-f742-4ecf-a8c4-19d5e666d23c
+
+Timestamp: 9/24/2025 8:21:41 PM
+
+Message: HandlingInstanceID: 20a2489c-2d35-46b2-9eb8-7012b93e1567
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/24/2025 15:21:41
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Cannot redirect after HTTP headers have been sent.›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Redirect(System.String, Boolean, Boolean)›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponseWrapper.Redirect(String url)
+   at Telerik.Sitefinity.Web.CustomErrorPages.ErrorPagesHandler.ProcessRequest()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.Context_EndRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/24/2025 8:21:41 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134032156391797153
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/errores/404?initialRequestUrl=http%3a%2f%2flocalhost%2fControllers%2fLDAPUserRest%2fLDAPUserRestService.svc%2fusers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134032156391797153
+
+ProcessId: 55328
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:56256
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: ab0856ac-3e74-46e3-b3ab-79e02f6b988f
+
+Timestamp: 9/24/2025 8:21:41 PM
+
+Message: HandlingInstanceID: 2b5e62f4-4f00-4697-b34c-0989033a6994
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/24/2025 15:21:41
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Cannot redirect after HTTP headers have been sent.›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Redirect(System.String, Boolean, Boolean)›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponseWrapper.Redirect(String url)
+   at Telerik.Sitefinity.Web.CustomErrorPages.ErrorPagesHandler.ProcessRequest()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.Context_EndRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/24/2025 8:21:41 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134032156391797153
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/errores/404?initialRequestUrl=http%3a%2f%2flocalhost%2fControllers%2fLDAPUserRest%2fLDAPUserRestService.svc%2fusers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134032156391797153
+
+ProcessId: 55328
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:50424
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 2e12abb2-d015-4a2d-b839-239dbac02856
+
+Timestamp: 9/24/2025 8:21:41 PM
+
+Message: HandlingInstanceID: 6d430465-5a28-4d02-877c-1ff6e7e17710
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/24/2025 15:21:41
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Cannot redirect after HTTP headers have been sent.›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Redirect(System.String, Boolean, Boolean)›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponseWrapper.Redirect(String url)
+   at Telerik.Sitefinity.Web.CustomErrorPages.ErrorPagesHandler.ProcessRequest()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.Context_EndRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/24/2025 8:21:41 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134032156391797153
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/errores/404?initialRequestUrl=http%3a%2f%2flocalhost%2fControllers%2fLDAPUserRest%2fLDAPUserRestService.svc%2fprofile-rol%2fwalter.villamar%40iroute.com.ec
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134032156391797153
+
+ProcessId: 55328
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:55564
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: badd5572-ab1c-47f0-a384-6328b86d3e51
+
+Timestamp: 9/24/2025 8:21:53 PM
+
+Message: HandlingInstanceID: fac842d1-a2a9-4a3a-b10d-f5ab5740a317
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/24/2025 15:21:53
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Cannot redirect after HTTP headers have been sent.›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Redirect(System.String, Boolean, Boolean)›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponseWrapper.Redirect(String url)
+   at Telerik.Sitefinity.Web.CustomErrorPages.ErrorPagesHandler.ProcessRequest()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.Context_EndRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/24/2025 8:21:53 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134032156391797153
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/errores/404?initialRequestUrl=http%3a%2f%2flocalhost%2fControllers%2fLDAPUserRest%2fLDAPUserRestService.svc%2fusers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134032156391797153
+
+ProcessId: 55328
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:55564
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 9956883d-054c-41bf-9cdb-c1b59fe55d7a
+
+Timestamp: 9/24/2025 8:21:53 PM
+
+Message: HandlingInstanceID: d566c824-961e-4e8f-82ed-c5680cecd9a2
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/24/2025 15:21:53
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Cannot redirect after HTTP headers have been sent.›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Redirect(System.String, Boolean, Boolean)›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponseWrapper.Redirect(String url)
+   at Telerik.Sitefinity.Web.CustomErrorPages.ErrorPagesHandler.ProcessRequest()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.Context_EndRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/24/2025 8:21:53 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134032156391797153
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/errores/404?initialRequestUrl=http%3a%2f%2flocalhost%2fControllers%2fLDAPUserRest%2fLDAPUserRestService.svc%2fprofile-rol%2fwalter.villamar%40iroute.com.ec
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134032156391797153
+
+ProcessId: 55328
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:34432
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: dd326568-2989-497f-b830-086afab15822
+
+Timestamp: 9/24/2025 8:26:25 PM
+
+Message: HandlingInstanceID: f3c1c1b5-780c-45d4-af48-67cbe5e4a202
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/24/2025 15:26:25
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Cannot redirect after HTTP headers have been sent.›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Redirect(System.String, Boolean, Boolean)›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponseWrapper.Redirect(String url)
+   at Telerik.Sitefinity.Web.CustomErrorPages.ErrorPagesHandler.ProcessRequest()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.Context_EndRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/24/2025 8:26:25 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134032156391797153
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/errores/404?initialRequestUrl=http%3a%2f%2flocalhost%2fControllers%2fLDAPUserRest%2fLDAPUserRestService.svc%2fprofile-rol%2fwalter.villamar%40iroute.com.ec
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134032156391797153
+
+ProcessId: 55328
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:57304
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: ae482bba-2f49-4e51-9a05-f8aa9a2496b7
+
+Timestamp: 9/24/2025 8:26:25 PM
+
+Message: HandlingInstanceID: 3f35bf67-ae60-434e-801b-fb7f30749d91
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/24/2025 15:26:25
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Cannot redirect after HTTP headers have been sent.›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Redirect(System.String, Boolean, Boolean)›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponseWrapper.Redirect(String url)
+   at Telerik.Sitefinity.Web.CustomErrorPages.ErrorPagesHandler.ProcessRequest()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.Context_EndRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/24/2025 8:26:25 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134032156391797153
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/errores/404?initialRequestUrl=http%3a%2f%2flocalhost%2fControllers%2fLDAPUserRest%2fLDAPUserRestService.svc%2fusers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134032156391797153
+
+ProcessId: 55328
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:16296
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: c1ad0f68-a991-44a3-8f13-35f8383955a7
+
+Timestamp: 9/24/2025 8:29:17 PM
+
+Message: HandlingInstanceID: 7747d637-1eae-42cb-b9a4-0b411225768f
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/24/2025 15:29:17
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Cannot redirect after HTTP headers have been sent.›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Redirect(System.String, Boolean, Boolean)›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponseWrapper.Redirect(String url)
+   at Telerik.Sitefinity.Web.CustomErrorPages.ErrorPagesHandler.ProcessRequest()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.Context_EndRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/24/2025 8:29:17 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134032156391797153
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/errores/404?initialRequestUrl=http%3a%2f%2flocalhost%2fControllers%2fLDAPUserRest%2fLDAPUserRestService.svc%2fprofile-rol%2fwalter.villamar%40iroute.com.ec
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134032156391797153
+
+ProcessId: 55328
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:56924
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: c10cc67a-1286-4f59-85aa-d04c5ed1d9ed
+
+Timestamp: 9/24/2025 8:35:36 PM
+
+Message: HandlingInstanceID: 9e8f8804-2d6d-4b3c-ba3e-5d1a9617a709
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/24/2025 15:35:36
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Cannot redirect after HTTP headers have been sent.›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Redirect(System.String, Boolean, Boolean)›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponseWrapper.Redirect(String url)
+   at Telerik.Sitefinity.Web.CustomErrorPages.ErrorPagesHandler.ProcessRequest()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.Context_EndRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/24/2025 8:35:36 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134032156391797153
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/errores/404?initialRequestUrl=http%3a%2f%2flocalhost%2fControllers%2fLDAPUserRest%2fLDAPUserRestService.svc%2fusers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134032156391797153
+
+ProcessId: 55328
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:56924
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 544a8ea4-f2ee-4f3a-8366-fdaaa52760b1
+
+Timestamp: 9/24/2025 8:35:36 PM
+
+Message: HandlingInstanceID: 68ee3437-3152-47f3-8ce9-281ab7abe261
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/24/2025 15:35:36
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Cannot redirect after HTTP headers have been sent.›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Redirect(System.String, Boolean, Boolean)›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponseWrapper.Redirect(String url)
+   at Telerik.Sitefinity.Web.CustomErrorPages.ErrorPagesHandler.ProcessRequest()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.Context_EndRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/24/2025 8:35:36 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134032156391797153
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/errores/404?initialRequestUrl=http%3a%2f%2flocalhost%2fControllers%2fLDAPUserRest%2fLDAPUserRestService.svc%2fprofile-rol%2fwalter.villamar%40iroute.com.ec
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134032156391797153
+
+ProcessId: 55328
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:23568
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: dfca361c-f5db-4a2c-99b7-d34423456bcc
+
+Timestamp: 9/24/2025 8:35:41 PM
+
+Message: HandlingInstanceID: 51b3a451-1abc-4457-9082-b3c3ca7581c6
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/24/2025 15:35:41
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Cannot redirect after HTTP headers have been sent.›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Redirect(System.String, Boolean, Boolean)›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponseWrapper.Redirect(String url)
+   at Telerik.Sitefinity.Web.CustomErrorPages.ErrorPagesHandler.ProcessRequest()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.Context_EndRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/24/2025 8:35:41 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134032156391797153
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/errores/404?initialRequestUrl=http%3a%2f%2flocalhost%2fControllers%2fLDAPUserRest%2fLDAPUserRestService.svc%2fprofile-rol%2fwalter.villamar%40iroute.com.ec
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134032156391797153
+
+ProcessId: 55328
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:50252
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: b6366156-4100-4eb1-a7d2-b25f1d7f3038
+
+Timestamp: 9/25/2025 2:03:20 PM
+
+Message: HandlingInstanceID: 4bd80412-c717-46da-ad7c-d80127cbc6ef
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/25/2025 09:03:20
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Cannot redirect after HTTP headers have been sent.›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Redirect(System.String, Boolean, Boolean)›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponseWrapper.Redirect(String url)
+   at Telerik.Sitefinity.Web.CustomErrorPages.ErrorPagesHandler.ProcessRequest()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.Context_EndRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/25/2025 2:03:20 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134032824506021107
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/errores/404?initialRequestUrl=http%3a%2f%2flocalhost%2ffavicon.ico
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134032824506021107
+
+ProcessId: 57856
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:59600
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: bb93850f-0e92-4ff6-b94c-92204ff3ccdd
+
+Timestamp: 9/25/2025 2:04:56 PM
+
+Message: HandlingInstanceID: 41d3201e-5d6f-42bd-ab55-ceb0387adad6
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/25/2025 09:04:56
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Cannot redirect after HTTP headers have been sent.›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Redirect(System.String, Boolean, Boolean)›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponseWrapper.Redirect(String url)
+   at Telerik.Sitefinity.Web.CustomErrorPages.ErrorPagesHandler.ProcessRequest()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.Context_EndRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/25/2025 2:04:56 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134032824506021107
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/errores/404?initialRequestUrl=http%3a%2f%2flocalhost%2fControllers%2fLDAPUserRest%2fLDAPUserRestService.svc%2fusers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134032824506021107
+
+ProcessId: 57856
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:58868
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 521c7191-f034-493f-bb6d-db24948a1e64
+
+Timestamp: 9/25/2025 2:04:56 PM
+
+Message: HandlingInstanceID: c4287a36-dd17-4a5a-83b9-10f0a1fef1e8
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/25/2025 09:04:56
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Cannot redirect after HTTP headers have been sent.›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Redirect(System.String, Boolean, Boolean)›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponseWrapper.Redirect(String url)
+   at Telerik.Sitefinity.Web.CustomErrorPages.ErrorPagesHandler.ProcessRequest()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.Context_EndRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/25/2025 2:04:56 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134032824506021107
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/errores/404?initialRequestUrl=http%3a%2f%2flocalhost%2fControllers%2fLDAPUserRest%2fLDAPUserRestService.svc%2fprofile-rol%2fnull
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134032824506021107
+
+ProcessId: 57856
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:62168
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: af3c9ff4-2ec4-4e8c-a847-afc2b23814c8
+
+Timestamp: 9/25/2025 2:32:35 PM
+
+Message: HandlingInstanceID: 5304379b-71db-4c6a-8ed2-1a5f1ca6b4a8
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/25/2025 09:32:35
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Cannot redirect after HTTP headers have been sent.›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Redirect(System.String, Boolean, Boolean)›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponseWrapper.Redirect(String url)
+   at Telerik.Sitefinity.Web.CustomErrorPages.ErrorPagesHandler.ProcessRequest()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.Context_EndRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/25/2025 2:32:35 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134032824506021107
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/errores/404?initialRequestUrl=http%3a%2f%2flocalhost%2fControllers%2fLDAPUserRest%2fLDAPUserRestService.svc%2fusers
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134032824506021107
+
+ProcessId: 57856
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:59156
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: f5ac14c9-5a51-44fb-84fb-0c342855dc4d
+
+Timestamp: 9/25/2025 2:32:35 PM
+
+Message: HandlingInstanceID: d7a1960d-e999-4323-bd8e-ef576aef6845
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/25/2025 09:32:35
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ‹‹‹Cannot redirect after HTTP headers have been sent.›››
+Source : System.Web
+Help link : 
+WebEventCode : ‹‹‹0›››
+ErrorCode : ‹‹‹-2147467259›››
+Data : ‹‹‹System.Collections.ListDictionaryInternal›››
+TargetSite : ‹‹‹Void Redirect(System.String, Boolean, Boolean)›››
+HResult : ‹‹‹-2147467259›››
+Stack Trace :    at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponseWrapper.Redirect(String url)
+   at Telerik.Sitefinity.Web.CustomErrorPages.ErrorPagesHandler.ProcessRequest()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.Context_EndRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : PCIR-DESARR04
+TimeStamp : 9/25/2025 2:32:35 PM
+FullName : Telerik.Sitefinity.Utilities, Version=15.3.8522.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-1-134032824506021107
+ThreadIdentity : Anonymous
+WindowsIdentity : IIS APPPOOL\INTRANET_NOTCOMP
+Requested URL : http://localhost/errores/404?initialRequestUrl=http%3a%2f%2flocalhost%2fControllers%2fLDAPUserRest%2fLDAPUserRestService.svc%2fprofile-rol%2fwalter.villamar%40iroute.com.ec
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/1/ROOT-1-134032824506021107
+
+ProcessId: 57856
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:61612
+
+Extended Properties: 
+----------------------------------------

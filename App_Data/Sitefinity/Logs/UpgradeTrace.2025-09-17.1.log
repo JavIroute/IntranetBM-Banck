@@ -1,0 +1,107 @@
+----------------------------------------
+ActivityId: 6607a268-d344-4c62-be0c-116e8bca8e9c
+
+Timestamp: 9/15/2025 1:41:24 AM
+
+Message: ‹‹‹Db Migration Complexity: Complex›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 6607a268-d344-4c62-be0c-116e8bca8e9c
+
+Timestamp: 9/15/2025 1:41:24 AM
+
+Message: ‹‹‹Adding a foreign key constraint(s) to an existing table(s).›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 6607a268-d344-4c62-be0c-116e8bca8e9c
+
+Timestamp: 9/15/2025 1:41:24 AM
+
+Message: ‹‹‹-- dropping table [apps_apps_appsperfiles]
+DROP TABLE [apps_apps_appsperfiles]›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 6dab1ff7-1bea-40cf-aac7-d55e95c63d75
+
+Timestamp: 9/15/2025 1:46:03 AM
+
+Message: ‹‹‹Db Migration Complexity: Extending›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 6dab1ff7-1bea-40cf-aac7-d55e95c63d75
+
+Timestamp: 9/15/2025 1:46:03 AM
+
+Message: ‹‹‹Adding a foreign key constraint(s) to an existing table(s).›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 6dab1ff7-1bea-40cf-aac7-d55e95c63d75
+
+Timestamp: 9/15/2025 1:46:03 AM
+
+Message: ‹‹‹Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 6dab1ff7-1bea-40cf-aac7-d55e95c63d75
+
+Timestamp: 9/15/2025 1:46:03 AM
+
+Message: ‹‹‹Adding an index(indices) definition for a new table(s), the create table statement(s) is included as well.›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 6dab1ff7-1bea-40cf-aac7-d55e95c63d75
+
+Timestamp: 9/15/2025 1:46:03 AM
+
+Message: ‹‹‹Adding a new table(s).›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 6dab1ff7-1bea-40cf-aac7-d55e95c63d75
+
+Timestamp: 9/15/2025 1:46:03 AM
+
+Message: ‹‹‹-- Telerik.OpenAccess.TrackedList`1[[System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] Telerik.Sitefinity.DynamicTypes.Model.apps.Apps.appsperfiles
+CREATE TABLE [apps_apps_appsperfiles] (
+    [base_id] uniqueidentifier NOT NULL,
+    [seq] int NOT NULL,                     -- <sequence>
+    [val] uniqueidentifier NULL,            -- <value>
+    CONSTRAINT [pk_apps_apps_appsperfiles] PRIMARY KEY ([base_id], [seq])
+)›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 6dab1ff7-1bea-40cf-aac7-d55e95c63d75
+
+Timestamp: 9/15/2025 1:46:03 AM
+
+Message: ‹‹‹ALTER TABLE [apps_apps_appsperfiles] ADD CONSTRAINT [ref_apps_pps_ppsprfls_406922A9] FOREIGN KEY ([base_id]) REFERENCES [apps_apps]([base_id])›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 6dab1ff7-1bea-40cf-aac7-d55e95c63d75
+
+Timestamp: 9/15/2025 1:46:03 AM
+
+Message: ‹‹‹-- Index 'idx_apps_apps_appsperfiles_val' was not detected in the database. It will be created
+CREATE INDEX [idx_apps_apps_appsperfiles_val] ON [apps_apps_appsperfiles]([val])›››
+
+
+----------------------------------------
