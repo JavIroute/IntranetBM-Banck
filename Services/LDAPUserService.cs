@@ -51,6 +51,7 @@ namespace SitefinityWebApp.Services
             _propertyMapping["Role"] = ConfigurationManager.AppSettings["LDAP.Properties.Role"];
             _propertyMapping["Profile"] = ConfigurationManager.AppSettings["LDAP.Properties.Profile"];
             _propertyMapping["Photo"] = ConfigurationManager.AppSettings["LDAP.Properties.Photo"];
+            _propertyMapping["LdapPassword"] = ConfigurationManager.AppSettings["LDAP.Properties.Password"];
         }
 
         // Método helper para obtener el nombre de la propiedad LDAP mapeada
@@ -264,7 +265,8 @@ namespace SitefinityWebApp.Services
                 {
                     _ldapServer = connectionNode.Attributes["serverName"]?.Value;
                     _ldapUser = connectionNode.Attributes["connectionUsername"]?.Value;
-                    _ldapPassword = connectionNode.Attributes["connectionPassword"]?.Value;
+                    // _ldapPassword = connectionNode.Attributes["connectionPassword"]?.Value;
+                    _ldapPassword = GetMappedProperty("LdapPassword");
                     _usersDN = connectionNode.Attributes["usersDN"]?.Value;
                     _authenticationType = connectionNode.Attributes["authenticationType"]?.Value;
                 }
