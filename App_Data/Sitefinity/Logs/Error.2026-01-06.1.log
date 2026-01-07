@@ -1,0 +1,310 @@
+----------------------------------------
+ActivityId: cc1b6b6b-4252-48d7-bbfa-55563ea2afce
+
+Timestamp: 20/10/2025 17:55:20
+
+Message: ‹‹‹Timestamp: 20/10/2025 17:55:20
+Message: System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.ReadNextTag(XmlReader reader, Int32 depth)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadSectionFromReader(ConfigSection section, XmlReader reader, LoadContext loadContext)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadSectionFromFile(ConfigSection section, LoadContext loadContext)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadSection(ConfigSection section)
+   at Telerik.Sitefinity.Configuration.ConfigSection.Initialize(ConfigProvider provider)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+   at Telerik.Sitefinity.Abstractions.Log.IsElmahLoggingEnabled()
+   at Telerik.Sitefinity.Abstractions.Log.EvaluateExpression(Func`1 expression, Boolean safeMode)
+   at Telerik.Sitefinity.Abstractions.Log.GetDefaultCategoryConfigurator(Boolean safeMode)
+   at Telerik.Sitefinity.Abstractions.ObjectFactory.ConfigureLogging(ConfigurationSourceBuilder configBuilder)
+   at Telerik.Sitefinity.Abstractions.ObjectFactory.RegisterIoCTypes()
+   at Telerik.Sitefinity.Abstractions.Bootstrapper.Bootstrap()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+Category: 
+Priority: -1
+EventId: 0
+Severity: Critical
+Title:
+Machine: PCIR-DESARR04
+App Domain: /LM/W3SVC/2/ROOT-1-134054564248091949
+ProcessId: 30092
+Process Name: C:\Program Files\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:24680
+Extended Properties: ›››
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134054564248091949
+
+ProcessId: 30092
+
+Process Name: C:\Program Files\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:24680
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: d474e211-517f-45bd-85ad-f4d2567fee45
+
+Timestamp: 20/10/2025 17:57:48
+
+Message: ‹‹‹Timestamp: 20/10/2025 17:57:48
+Message: System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.ReadNextTag(XmlReader reader, Int32 depth)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadSectionFromReader(ConfigSection section, XmlReader reader, LoadContext loadContext)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadSectionFromFile(ConfigSection section, LoadContext loadContext)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadSection(ConfigSection section)
+   at Telerik.Sitefinity.Configuration.ConfigSection.Initialize(ConfigProvider provider)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+   at Telerik.Sitefinity.Abstractions.Log.IsElmahLoggingEnabled()
+   at Telerik.Sitefinity.Abstractions.Log.EvaluateExpression(Func`1 expression, Boolean safeMode)
+   at Telerik.Sitefinity.Abstractions.Log.GetDefaultCategoryConfigurator(Boolean safeMode)
+   at Telerik.Sitefinity.Abstractions.ObjectFactory.ConfigureLogging(ConfigurationSourceBuilder configBuilder)
+   at Telerik.Sitefinity.Abstractions.ObjectFactory.RegisterIoCTypes()
+   at Telerik.Sitefinity.Abstractions.Bootstrapper.Bootstrap()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+Category: 
+Priority: -1
+EventId: 0
+Severity: Critical
+Title:
+Machine: PCIR-DESARR04
+App Domain: /LM/W3SVC/2/ROOT-1-134054566346687032
+ProcessId: 22872
+Process Name: C:\Program Files\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:14440
+Extended Properties: ›››
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134054566346687032
+
+ProcessId: 22872
+
+Process Name: C:\Program Files\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:14440
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 7dbb30a8-d5cb-4b4d-9fe0-7c09e58e84cc
+
+Timestamp: 21/10/2025 13:54:02
+
+Message: ‹‹‹Timestamp: 21/10/2025 13:54:02
+Message: System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.ReadNextTag(XmlReader reader, Int32 depth)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadSectionFromReader(ConfigSection section, XmlReader reader, LoadContext loadContext)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadSectionFromFile(ConfigSection section, LoadContext loadContext)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadSection(ConfigSection section)
+   at Telerik.Sitefinity.Configuration.ConfigSection.Initialize(ConfigProvider provider)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+   at Telerik.Sitefinity.Abstractions.Log.IsElmahLoggingEnabled()
+   at Telerik.Sitefinity.Abstractions.Log.EvaluateExpression(Func`1 expression, Boolean safeMode)
+   at Telerik.Sitefinity.Abstractions.Log.GetDefaultCategoryConfigurator(Boolean safeMode)
+   at Telerik.Sitefinity.Abstractions.ObjectFactory.ConfigureLogging(ConfigurationSourceBuilder configBuilder)
+   at Telerik.Sitefinity.Abstractions.ObjectFactory.RegisterIoCTypes()
+   at Telerik.Sitefinity.Abstractions.Bootstrapper.Bootstrap()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+Category: 
+Priority: -1
+EventId: 0
+Severity: Critical
+Title:
+Machine: PCIR-DESARR04
+App Domain: /LM/W3SVC/2/ROOT-1-134055283464491214
+ProcessId: 32356
+Process Name: C:\Program Files\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:33104
+Extended Properties: ›››
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134055283464491214
+
+ProcessId: 32356
+
+Process Name: C:\Program Files\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:33104
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: a02fe7c3-b1ea-4230-8e36-25103fddbe85
+
+Timestamp: 21/10/2025 13:55:06
+
+Message: ‹‹‹Timestamp: 21/10/2025 13:55:05
+Message: System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.ReadNextTag(XmlReader reader, Int32 depth)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadSectionFromReader(ConfigSection section, XmlReader reader, LoadContext loadContext)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadSectionFromFile(ConfigSection section, LoadContext loadContext)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadSection(ConfigSection section)
+   at Telerik.Sitefinity.Configuration.ConfigSection.Initialize(ConfigProvider provider)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+   at Telerik.Sitefinity.Abstractions.Log.IsElmahLoggingEnabled()
+   at Telerik.Sitefinity.Abstractions.Log.EvaluateExpression(Func`1 expression, Boolean safeMode)
+   at Telerik.Sitefinity.Abstractions.Log.GetDefaultCategoryConfigurator(Boolean safeMode)
+   at Telerik.Sitefinity.Abstractions.ObjectFactory.ConfigureLogging(ConfigurationSourceBuilder configBuilder)
+   at Telerik.Sitefinity.Abstractions.ObjectFactory.RegisterIoCTypes()
+   at Telerik.Sitefinity.Abstractions.Bootstrapper.Bootstrap()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+Category: 
+Priority: -1
+EventId: 0
+Severity: Critical
+Title:
+Machine: PCIR-DESARR04
+App Domain: /LM/W3SVC/2/ROOT-2-134055284714107608
+ProcessId: 32356
+Process Name: C:\Program Files\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:33104
+Extended Properties: ›››
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-2-134055284714107608
+
+ProcessId: 32356
+
+Process Name: C:\Program Files\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:33104
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 5a1ae92c-e4e8-4970-bc5c-ec70d5b212c9
+
+Timestamp: 21/10/2025 13:58:08
+
+Message: ‹‹‹Timestamp: 21/10/2025 13:58:08
+Message: System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.ReadNextTag(XmlReader reader, Int32 depth)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadSectionFromReader(ConfigSection section, XmlReader reader, LoadContext loadContext)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadSectionFromFile(ConfigSection section, LoadContext loadContext)
+   at Telerik.Sitefinity.Configuration.Data.XmlConfigProvider.LoadSection(ConfigSection section)
+   at Telerik.Sitefinity.Configuration.ConfigSection.Initialize(ConfigProvider provider)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+   at Telerik.Sitefinity.Abstractions.Log.IsElmahLoggingEnabled()
+   at Telerik.Sitefinity.Abstractions.Log.EvaluateExpression(Func`1 expression, Boolean safeMode)
+   at Telerik.Sitefinity.Abstractions.Log.GetDefaultCategoryConfigurator(Boolean safeMode)
+   at Telerik.Sitefinity.Abstractions.ObjectFactory.ConfigureLogging(ConfigurationSourceBuilder configBuilder)
+   at Telerik.Sitefinity.Abstractions.ObjectFactory.RegisterIoCTypes()
+   at Telerik.Sitefinity.Abstractions.Bootstrapper.Bootstrap()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+Category: 
+Priority: -1
+EventId: 0
+Severity: Critical
+Title:
+Machine: PCIR-DESARR04
+App Domain: /LM/W3SVC/2/ROOT-1-134055286207076331
+ProcessId: 356
+Process Name: C:\Program Files\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:26888
+Extended Properties: ›››
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: PCIR-DESARR04
+
+App Domain: /LM/W3SVC/2/ROOT-1-134055286207076331
+
+ProcessId: 356
+
+Process Name: C:\Program Files\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:26888
+
+Extended Properties: 
+----------------------------------------

@@ -1,7 +1,145 @@
 ----------------------------------------
-ActivityId: cc1b6b6b-4252-48d7-bbfa-55563ea2afce
+ActivityId: 3f20f841-164d-4641-bd44-9090432dd1ad
 
-Timestamp: 20/10/2025 17:55:30
+Timestamp: 06/01/2026 03:15:05 p. m.
+
+Message: ‹‹‹Attempting application domain unload. Reason: 'Data at the root level is invalid. Line 1, position 1.'. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 3f20f841-164d-4641-bd44-9090432dd1ad
+
+Timestamp: 06/01/2026 03:15:05 p. m.
+
+Message: ‹‹‹Application domain unload succeeded. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 4772649b-267f-4d7b-b759-09f200bb5565
+
+Timestamp: 06/01/2026 03:15:36 p. m.
+
+Message: ‹‹‹Attempting application domain unload. Reason: 'Data at the root level is invalid. Line 1, position 1.'. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 4772649b-267f-4d7b-b759-09f200bb5565
+
+Timestamp: 06/01/2026 03:15:36 p. m.
+
+Message: ‹‹‹Application domain unload succeeded. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: be4a70e4-165a-4320-a357-a6bc4a63fdbd
+
+Timestamp: 06/01/2026 03:15:55 p. m.
+
+Message: ‹‹‹Attempting application domain unload. Reason: 'Data at the root level is invalid. Line 1, position 1.'. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: be4a70e4-165a-4320-a357-a6bc4a63fdbd
+
+Timestamp: 06/01/2026 03:15:55 p. m.
+
+Message: ‹‹‹Application domain unload succeeded. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: 2214f368-7cd0-41b4-aa45-9fadcf9d5178
+
+Timestamp: 06/01/2026 05:46:06 p. m.
 
 Message: ‹‹‹Attempting application domain unload. Reason: 'Data at the root level is invalid. Line 1, position 1.'. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
    at System.Environment.get_StackTrace()
@@ -18,9 +156,9 @@ Message: ‹‹‹Attempting application domain unload. Reason: 'Data at the roo
 
 ----------------------------------------
 ----------------------------------------
-ActivityId: cc1b6b6b-4252-48d7-bbfa-55563ea2afce
+ActivityId: 2214f368-7cd0-41b4-aa45-9fadcf9d5178
 
-Timestamp: 20/10/2025 17:55:30
+Timestamp: 06/01/2026 05:46:06 p. m.
 
 Message: ‹‹‹Application domain unload succeeded. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
    at System.Environment.get_StackTrace()
@@ -37,9 +175,9 @@ Message: ‹‹‹Application domain unload succeeded. StackTrace: '   at System
 
 ----------------------------------------
 ----------------------------------------
-ActivityId: d474e211-517f-45bd-85ad-f4d2567fee45
+ActivityId: c07f0dc1-d56d-4bd2-adfa-8175619b700f
 
-Timestamp: 20/10/2025 17:57:58
+Timestamp: 06/01/2026 05:46:41 p. m.
 
 Message: ‹‹‹Attempting application domain unload. Reason: 'Data at the root level is invalid. Line 1, position 1.'. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
    at System.Environment.get_StackTrace()
@@ -56,9 +194,9 @@ Message: ‹‹‹Attempting application domain unload. Reason: 'Data at the roo
 
 ----------------------------------------
 ----------------------------------------
-ActivityId: d474e211-517f-45bd-85ad-f4d2567fee45
+ActivityId: c07f0dc1-d56d-4bd2-adfa-8175619b700f
 
-Timestamp: 20/10/2025 17:57:58
+Timestamp: 06/01/2026 05:46:41 p. m.
 
 Message: ‹‹‹Application domain unload succeeded. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
    at System.Environment.get_StackTrace()
@@ -75,9 +213,9 @@ Message: ‹‹‹Application domain unload succeeded. StackTrace: '   at System
 
 ----------------------------------------
 ----------------------------------------
-ActivityId: 7dbb30a8-d5cb-4b4d-9fe0-7c09e58e84cc
+ActivityId: e0742640-a3b9-42fd-8c37-5d3d10342fc5
 
-Timestamp: 21/10/2025 13:54:12
+Timestamp: 06/01/2026 06:27:16 p. m.
 
 Message: ‹‹‹Attempting application domain unload. Reason: 'Data at the root level is invalid. Line 1, position 1.'. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
    at System.Environment.get_StackTrace()
@@ -94,9 +232,9 @@ Message: ‹‹‹Attempting application domain unload. Reason: 'Data at the roo
 
 ----------------------------------------
 ----------------------------------------
-ActivityId: 7dbb30a8-d5cb-4b4d-9fe0-7c09e58e84cc
+ActivityId: e0742640-a3b9-42fd-8c37-5d3d10342fc5
 
-Timestamp: 21/10/2025 13:54:12
+Timestamp: 06/01/2026 06:27:16 p. m.
 
 Message: ‹‹‹Application domain unload succeeded. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
    at System.Environment.get_StackTrace()
@@ -113,9 +251,9 @@ Message: ‹‹‹Application domain unload succeeded. StackTrace: '   at System
 
 ----------------------------------------
 ----------------------------------------
-ActivityId: a02fe7c3-b1ea-4230-8e36-25103fddbe85
+ActivityId: a2b0d8b1-3edc-48b8-a1d8-cf2b009f9c47
 
-Timestamp: 21/10/2025 13:55:16
+Timestamp: 06/01/2026 06:28:16 p. m.
 
 Message: ‹‹‹Attempting application domain unload. Reason: 'Data at the root level is invalid. Line 1, position 1.'. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
    at System.Environment.get_StackTrace()
@@ -132,9 +270,9 @@ Message: ‹‹‹Attempting application domain unload. Reason: 'Data at the roo
 
 ----------------------------------------
 ----------------------------------------
-ActivityId: a02fe7c3-b1ea-4230-8e36-25103fddbe85
+ActivityId: a2b0d8b1-3edc-48b8-a1d8-cf2b009f9c47
 
-Timestamp: 21/10/2025 13:55:16
+Timestamp: 06/01/2026 06:28:16 p. m.
 
 Message: ‹‹‹Application domain unload succeeded. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
    at System.Environment.get_StackTrace()
@@ -151,9 +289,9 @@ Message: ‹‹‹Application domain unload succeeded. StackTrace: '   at System
 
 ----------------------------------------
 ----------------------------------------
-ActivityId: 5a1ae92c-e4e8-4970-bc5c-ec70d5b212c9
+ActivityId: cad7a845-98bd-4838-96ab-2bc6da2ce876
 
-Timestamp: 21/10/2025 13:58:18
+Timestamp: 06/01/2026 06:30:23 p. m.
 
 Message: ‹‹‹Attempting application domain unload. Reason: 'Data at the root level is invalid. Line 1, position 1.'. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
    at System.Environment.get_StackTrace()
@@ -170,9 +308,47 @@ Message: ‹‹‹Attempting application domain unload. Reason: 'Data at the roo
 
 ----------------------------------------
 ----------------------------------------
-ActivityId: 5a1ae92c-e4e8-4970-bc5c-ec70d5b212c9
+ActivityId: cad7a845-98bd-4838-96ab-2bc6da2ce876
 
-Timestamp: 21/10/2025 13:58:18
+Timestamp: 06/01/2026 06:30:23 p. m.
+
+Message: ‹‹‹Application domain unload succeeded. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: e89a1a59-5d7d-46bf-9ab2-e32d0fab5012
+
+Timestamp: 06/01/2026 06:31:27 p. m.
+
+Message: ‹‹‹Attempting application domain unload. Reason: 'Data at the root level is invalid. Line 1, position 1.'. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at Telerik.Sitefinity.Services.SystemManager.TryRestartApplication(String restartReason)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.HandleBootstrapException(Exception exception)
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()'›››
+
+
+----------------------------------------
+----------------------------------------
+ActivityId: e89a1a59-5d7d-46bf-9ab2-e32d0fab5012
+
+Timestamp: 06/01/2026 06:31:27 p. m.
 
 Message: ‹‹‹Application domain unload succeeded. StackTrace: '   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
    at System.Environment.get_StackTrace()

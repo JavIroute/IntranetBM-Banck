@@ -24,8 +24,8 @@ namespace SitefinityWebApp.Services
 
         public LDAPUserService()
         {
-            LoadSitefinityLdapConfig();
             LoadPropertyMapping();
+            LoadSitefinityLdapConfig();
         }
 
         private void LoadPropertyMapping()
